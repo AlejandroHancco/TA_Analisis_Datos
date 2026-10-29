@@ -4,5 +4,13 @@
  "filas_train": 236,
  "filas_test": 88,
  "pca_cp1": 84.1,
- "res_peso_con_alteracion": 3.72
+ "res_peso_con_alteracion": 3.72,
+ "res_peso_0": -2.21,
+ "res_peso_1": 3.72,
+ "res_talla_0": 0.47,
+ "res_talla_1": -0.79,
+ "res_imc_0": -1.13,
+ "res_imc_1": 1.9,
+ "corr_min_edad_peso_talla": 0.86,
+ "corr_max_edad_peso_talla": 0.94
 }

@@ -10,5 +10,15 @@
  "auc_semillas_max": 0.861,
  "auc_semillas_media": 0.822,
  "auc_svc_semillas_min": 0.708,
- "auc_svc_semillas_max": 0.835
+ "auc_svc_semillas_max": 0.835,
+ "auc_perm_media": 0.552,
+ "auc_knn_min": 0.676,
+ "auc_knn_max": 0.754,
+ "auc_amplia_min": 0.653,
+ "auc_amplia_max": 0.771,
+ "auc_solo_edad": 0.489,
+ "km_crudas_min": 0.48,
+ "km_crudas_max": 0.509,
+ "km_ajust_max": 0.757,
+ "logit_gana_semillas": 19
 }

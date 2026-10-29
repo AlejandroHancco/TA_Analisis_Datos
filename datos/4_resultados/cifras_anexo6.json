@@ -1,5 +1,8 @@
 {
  "auc_max_modelos": 0.558,
  "p_min_permutaciones": 0.204,
- "auc_solo_edad_estricta": 0.623
+ "auc_solo_edad_estricta": 0.623,
+ "auc_min_modelos": 0.478,
+ "p_max_permutaciones": 0.373,
+ "auc_todas_estricta": 0.558
 }
