@@ -1,0 +1,52 @@
+{
+ "semilla": 2026,
+ "num_cols": [
+  "edad",
+  "tiempo_hogar_meses"
+ ],
+ "nominales": [
+  "situacion_legal",
+  "upe",
+  "estado_pti",
+  "tipo_ie"
+ ],
+ "orden_educativo": {
+  "Ninguno": 0,
+  "Inicial": 1,
+  "Primaria": 2,
+  "Secundaria": 3,
+  "Técnico": 4
+ },
+ "descartar_tras_codificar": [
+  "situacion_legal_Otra",
+  "upe_Otra",
+  "tipo_ie_EBA (alternativa)",
+  "tipo_ie_Ninguna",
+  "tipo_ie_Técnica/taller",
+  "anemia",
+  "otra_condicion_salud",
+  "soporte_estimulacion",
+  "atencion_psicologica",
+  "nivel_educativo_ord"
+ ],
+ "columnas_finales": [
+  "edad",
+  "tiempo_hogar_meses",
+  "situacion_legal_Provisional",
+  "situacion_legal_Urgente",
+  "upe_Lima Este",
+  "upe_Lima Norte-Callao",
+  "upe_Lima Sur",
+  "estado_pti_No tiene",
+  "estado_pti_Vencido",
+  "tipo_ie_EBR",
+  "sexo_M",
+  "severidad_discapacidad",
+  "estudia",
+  "nacido_en_lima",
+  "soporte_acompanamiento",
+  "soporte_psicoterapia",
+  "soporte_taller",
+  "salud_mental_especializada"
+ ]
+}

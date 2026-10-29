@@ -1,0 +1,5 @@
+etiqueta|modelo|AUC real|AUC medio barajado|percentil 95 barajado|p-valor
+alteracion_estricta (principal)|Regresión logística|0.556|0.492|0.602|0.204
+alteracion_estricta (principal)|SVC (kernel rbf)|0.52|0.493|0.6|0.353
+alteracion (amplia)|Regresión logística|0.531|0.492|0.618|0.373
+alteracion (amplia)|SVC (kernel rbf)|0.55|0.494|0.632|0.289

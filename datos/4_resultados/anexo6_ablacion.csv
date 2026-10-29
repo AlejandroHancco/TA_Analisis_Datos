@@ -1,0 +1,7 @@
+etiqueta|variables|AUC|exactitud balanceada
+alteracion_estricta (principal)|solo edad|0.623|0.616
+alteracion_estricta (principal)|todo menos edad|0.503|0.508
+alteracion_estricta (principal)|todas|0.558|0.539
+alteracion (amplia)|solo edad|0.561|0.576
+alteracion (amplia)|todo menos edad|0.489|0.488
+alteracion (amplia)|todas|0.505|0.499

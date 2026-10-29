@@ -1,0 +1,7 @@
+{
+ "ninos": 150,
+ "ninos_train": 112,
+ "ninos_test": 38,
+ "predictores_finales": 18,
+ "pca_k80": 10
+}
