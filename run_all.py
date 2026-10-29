@@ -1,6 +1,6 @@
 """Ejecuta todo el proyecto desde cero, en orden, y verifica su consistencia.
 
-Uso (desde la carpeta TA_E10):  python ejecutar_todo.py
+Uso (desde la carpeta TA_E10):  python run_all.py
 
 1. Verifica que los datos crudos no cambiaron (hashes en datos/0_crudos/hashes.json).
 2. Borra todo lo generado (datos/1_ a 4_, figuras/) y ejecuta los notebooks en el orden KDD.

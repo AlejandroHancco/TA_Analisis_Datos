@@ -1,6 +1,6 @@
 """Genera los entregables del avance (ficha técnica, Gantt y presentación) con las cifras de esta ejecución.
 
-Uso (desde TA_E10, después de `python ejecutar_todo.py`):  python actualizar_entregables.py
+Uso (desde TA_E10, después de `python run_all.py`):  python actualizar_entregables.py
 
 Parte de las versiones originales en entregables/plantillas/ (mismo diseño) y reemplaza textos y figuras.
 Cada reemplazo debe encontrar su texto de origen; si no lo encuentra, el script se detiene.
