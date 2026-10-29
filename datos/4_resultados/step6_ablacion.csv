@@ -1,0 +1,15 @@
+etiqueta|variables|AUC|exactitud balanceada
+alteracion_estricta|todas (crudas + ajustadas)|0.853|0.766
+alteracion_estricta|sin edad ni sexo|0.83|0.751
+alteracion_estricta|solo edad|0.489|0.493
+alteracion_estricta|solo edad y sexo|0.558|0.568
+alteracion_estricta|solo IMC|0.712|0.662
+alteracion_estricta|solo residuo de IMC|0.802|0.736
+alteracion_estricta|solo residuos (peso, talla, IMC)|0.839|0.753
+alteracion|todas (crudas + ajustadas)|0.756|0.676
+alteracion|sin edad ni sexo|0.762|0.696
+alteracion|solo edad|0.566|0.586
+alteracion|solo edad y sexo|0.522|0.512
+alteracion|solo IMC|0.66|0.609
+alteracion|solo residuo de IMC|0.697|0.671
+alteracion|solo residuos (peso, talla, IMC)|0.768|0.701

@@ -1,0 +1,14 @@
+{
+ "auc_logit_ca": 0.852,
+ "auc_svc_ca": 0.829,
+ "auc_logit_crudas": 0.747,
+ "auc_knn_ca": 0.737,
+ "auc_perm_real": 0.837,
+ "auc_perm_p95": 0.668,
+ "p_perm": 0.01,
+ "auc_semillas_min": 0.755,
+ "auc_semillas_max": 0.861,
+ "auc_semillas_media": 0.822,
+ "auc_svc_semillas_min": 0.708,
+ "auc_svc_semillas_max": 0.835
+}

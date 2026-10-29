@@ -1,0 +1,21 @@
+etiqueta|variables|k|AUC (grupos)|ARI|NMI
+alteracion_estricta|crudas|2|0.498|0.052|0.027
+alteracion_estricta|crudas|3|0.483|0.026|0.022
+alteracion_estricta|crudas|4|0.499|0.025|0.027
+alteracion_estricta|crudas|5|0.48|0.026|0.029
+alteracion_estricta|crudas|6|0.509|0.008|0.029
+alteracion_estricta|solo ajustadas|2|0.596|0.182|0.122
+alteracion_estricta|solo ajustadas|3|0.534|0.108|0.107
+alteracion_estricta|solo ajustadas|4|0.657|0.07|0.082
+alteracion_estricta|solo ajustadas|5|0.713|0.132|0.158
+alteracion_estricta|solo ajustadas|6|0.757|0.128|0.122
+alteracion|crudas|2|0.456|-0.013|0.009
+alteracion|crudas|3|0.458|-0.005|0.011
+alteracion|crudas|4|0.47|-0.016|0.026
+alteracion|crudas|5|0.504|-0.003|0.031
+alteracion|crudas|6|0.487|0.009|0.036
+alteracion|solo ajustadas|2|0.51|-0.042|0.044
+alteracion|solo ajustadas|3|0.585|-0.05|0.081
+alteracion|solo ajustadas|4|0.629|0.024|0.077
+alteracion|solo ajustadas|5|0.662|0.031|0.12
+alteracion|solo ajustadas|6|0.674|-0.0|0.063
