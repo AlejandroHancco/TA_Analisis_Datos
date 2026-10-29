@@ -1,0 +1,151 @@
+id_nna|periodo_ref|edad|sexo|tiempo_hogar_meses|ingreso_imputado|nacido_en_lima|situacion_legal|upe|estado_pti|nivel_educativo|estudia|tipo_ie|anemia|otra_condicion_salud|tiene_discapacidad|severidad_discapacidad|soporte_acompanamiento|soporte_psicoterapia|soporte_estimulacion|soporte_taller|n_tipos_soporte|salud_mental_especializada|atencion_psicologica|n_registros_dx|nutri_componentes|alteracion|alteracion_estricta
+PPA_FN_0001_F_20220326|2025_04|3.0965092402464065|F|31.76741130091984|0|1|Provisional|Lima Norte-Callao|Actual|Inicial|1|EBR|0|0|0|0.0|1|0|1|1|3|0|0|3|sobrepeso|1|1
+PPA_FN_0002_M_20211130|2026_07|4.6652977412731005|M|55.55190538764783|0|1|Otra|Lima Norte-Callao|Vencido|Inicial|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|saludable|0|0
+PPA_FN_0003_M_20220328|2025_06|3.2580424366872007|M|38.86333771353482|0|1|Otra|Lima Norte-Callao|Vencido|Inicial|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|5|riesgo_talla_baja|1|0
+PPA_FN_0004_M_20230901|2026_07|2.9130732375085557|M||1|1|Urgente|Lima Este|Actual|Inicial|0|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|saludable|0|0
+PPA_FN_0005_F_20211106|2025_03|3.3976728268309375|F|40.473061760841|0|1|Urgente|Lima Norte-Callao|Actual|Inicial|0|Ninguna|0|0|0|0.0|1|0|0|1|2|0|0|2|riesgo_talla_baja|1|0
+PPA_FN_0006_F_20220530|2026_07|4.16974674880219|F|49.31011826544021|0|1|Urgente|Lima Este|No tiene|Inicial|0|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|riesgo_talla_baja|1|0
+PPA_FN_0007_F_20200707|2025_01|4.569472963723477|F|27.003942181340342|0|1|Provisional|Lima|Actual|Inicial|1|EBR|1|0|0|0.0|1|0|0|0|1|0|0|1|saludable|0|0
+PPA_FN_0008_M_20190210|2026_07|7.468856947296373|M|47.8646517739816|0|1|Provisional|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|1|3.0|1|0|0|0|1|1|0|19|riesgo_talla_baja|1|0
+PPA_FN_0009_F_20200611|2026_07|6.135523613963039|F|46.97766097240473|0|1|Provisional|Lima Este|Vencido|Inicial|1|EBR|0|0|0|0.0|0|1|0|0|1|0|0|19|riesgo_sobrepeso|1|0
+PPA_FN_0010_M_20191111|2025_09|5.886379192334018|M|68.26544021024966|0|1|Provisional|Lima Norte-Callao|Actual|Inicial|1|EBR|0|0|0|0.0|1|1|0|0|2|0|0|9|riesgo_sobrepeso|1|0
+PPA_FN_0010_M_20191210|2026_07|6.639288158795345|M|78.25229960578186|0|1|Provisional|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|0|0.0|0|1|0|0|1|0|0|10|riesgo_sobrepeso|1|0
+PPA_FN_0011_F_20200304|2026_07|6.406570841889117|F|76.6754270696452|0|1|Urgente|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|talla_baja|1|1
+PPA_FN_0012_M_20181027|2026_07|7.759069130732375|M|60.57818659658344|0|1|Provisional|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|0|0.0|1|0|0|1|2|0|0|19|saludable|0|0
+PPA_FN_0013_F_20190206|2026_07|7.479808350444901|F|87.91064388961892|0|1|Urgente|Lima Este|Vencido|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|saludable|0|0
+PPA_FN_0014_F_20190206|2026_07|7.479808350444901|F|87.91064388961892|0|1|Urgente|Lima Este|Vencido|Primaria|1|EBR|0|0|0|0.0|0|1|0|0|1|0|0|19|riesgo_sobrepeso|1|0
+PPA_FN_0015_M_20190202|2026_07|7.490759753593429|M|66.06438896189225|0|1|Provisional|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|0|0.0|0|1|0|0|1|0|0|19|obesidad+riesgo_talla_baja|1|1
+PPA_FN_0016_M_20181030|2026_07|7.750855578370979|M|65.60446780551905|0|1|Provisional|Lima Este|Vencido|Primaria|1|EBR|0|0|0|0.0|0|1|0|0|1|0|0|19|riesgo_talla_baja+sobrepeso|1|1
+PPA_FN_0017_M_20180914|2026_07|7.876796714579055|M|44.645203679369246|0|1|Urgente|Lima Este|Actual|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|obesidad|1|1
+PPA_FN_0018_M_20180824|2026_07|7.9342915811088295|M|89.94743758212877|0|1|Urgente|Lima|Actual|Primaria|1|EBR|0|0|0|0.0|1|1|0|1|3|0|0|19|riesgo_talla_baja|1|0
+PPA_FN_0019_M_20161008|2026_07|9.809719370294319|M|115.67017082785807|0|1|Provisional|Lima Este|Actual|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|talla_baja|1|1
+PPA_FN_0020_F_20171214|2026_07|8.626967830253252|F|102.69382391590013|0|1|Provisional|Lima|Actual|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|saludable|0|0
+PPA_FN_0020_M_20170424|2025_09|8.435318275154003|M|52.398160315374504|0|1|Provisional|Lima Norte-Callao|Vencido|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|8|saludable|0|0
+PPA_FN_0021_M_20180503|2026_07|8.243668720054757|M|63.79763469119579|0|1|Provisional|Lima Norte-Callao|Vencido|Primaria|1|CEBE (especial)|0|0|1|2.0|1|1|0|1|3|1|0|19|riesgo_talla_baja+sobrepeso|1|1
+PPA_FN_0022_F_20170618|2026_07|9.117043121149898|F|40.76872536136662|0|1|Provisional|Lima Este|No tiene|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|saludable|0|0
+PPA_FN_0023_F_20180924|2026_07|7.8494182067077345|F|46.97766097240473|0|1|Provisional|Lima Este|Vencido|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_sobrepeso+riesgo_talla_baja|1|0
+PPA_FN_0024_F_20180703|2026_07|8.0766598220397|F|93.19973718791064|0|1|Urgente|Lima|No tiene|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|1|0|19|saludable|0|0
+PPA_FN_0025_F_20181231|2026_07|7.581108829568788|F|78.25229960578186|0|1|Provisional|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|0|0.0|0|1|0|0|1|0|0|10|saludable|0|0
+PPA_FN_0025_F_20190122|2025_09|6.6885694729637235|F|68.26544021024966|0|1|Provisional|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|0|0.0|0|1|0|0|1|0|0|9|saludable|0|0
+PPA_FN_0026_F_20080907|2026_07|17.894592744695416|F|115.5059132720105|0|1|Definitiva|Lima|Actual|Secundaria|1|EBA (alternativa)|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_sobrepeso+riesgo_talla_baja|1|0
+PPA_FN_0027_F_20100926|2026_07|15.84394250513347|F|115.5059132720105|0|1|Definitiva|Lima|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_sobrepeso|1|0
+PPA_FN_0028_F_20150131|2026_07|11.496235455167694|F|115.5059132720105|0|1|Definitiva|Lima|Actual|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_talla_baja|1|0
+PPA_FN_0030_F_20121121|2026_07|13.689253935660506|F|42.41130091984231|0|1|Definitiva|Lima|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|1|0|19|obesidad+riesgo_talla_baja|1|1
+PPA_FN_0031_F_20151007|2026_07|10.8145106091718|F|124.93429697766096|0|1|Provisional|Lima|Actual|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_sobrepeso|1|0
+PPA_FN_0032_F_20121005|2026_07|13.817932922655714|F|149.34296977660972|0|1|Definitiva|Lima|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_talla_baja|1|0
+PPA_FN_0033_F_20140412|2026_07|12.301163586584531|F||1|1|Definitiva|Lima|Actual|Primaria|1|EBR|0|0|0|0.0|0|1|0|0|1|0|0|19|saludable|0|0
+PPA_FN_0034_F_20140412|2026_07|12.301163586584531|F||1|1|Definitiva|Lima|Actual|Primaria|1|EBR|0|0|1|2.0|1|0|0|0|1|0|0|19|saludable|0|0
+PPA_FN_0035_F_20141106|2026_07|11.731690622861054|F|81.30749014454665|0|0|Provisional|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|riesgo_talla_baja|1|0
+PPA_FN_0036_F_20141106|2026_07|11.731690622861054|F|81.30749014454665|0|0|Provisional|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|1|2.0|1|0|0|0|1|0|0|19|riesgo_talla_baja|1|0
+PPA_FN_0037_F_20060805|2025_01|18.491444216290212|F|132.49014454664913|0|1|Provisional|Lima|No tiene|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|1|obesidad|1|1
+PPA_FN_0038_F_20100715|2026_07|16.043805612594113|F|150.42706964520366|0|1|Definitiva|Lima Norte-Callao|No tiene|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_sobrepeso+riesgo_talla_baja|1|0
+PPA_FN_0039_F_20120610|2026_07|14.13826146475017|F|150.42706964520366|0|1|Definitiva|Lima Norte-Callao|No tiene|Secundaria|1|EBR|0|0|0|0.0|1|1|0|0|2|0|0|19|obesidad|1|1
+PPA_FN_0040_F_20060404|2025_01|18.82819986310746|F|121.97766097240472|0|1|Provisional|Lima Norte-Callao|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|1|obesidad|1|1
+PPA_FN_0041_F_20091006|2026_07|16.815879534565365|F|156.86596583442838|0|0|Provisional|Lima Este|Actual|Secundaria|1|EBR|0|0|0|0.0|1|1|0|0|2|1|0|19|riesgo_sobrepeso+talla_baja|1|1
+PPA_FN_0042_F_20111201|2026_07|14.663928815879535|F|159.7568988173456|0|1|Provisional|Lima Este|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|1|0|19|riesgo_sobrepeso+riesgo_talla_baja|1|0
+PPA_FN_0043_F_20130904|2026_07|12.903490759753593|F|116.688567674113|0|1|Definitiva|Lima Este|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|saludable|0|0
+PPA_FN_0045_F_20090620|2026_07|17.111567419575632|F|89.29040735873849|0|0|Provisional|Lima Norte-Callao|Actual|Secundaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|riesgo_sobrepeso|1|0
+PPA_FN_0046_F_20090308|2026_07|17.39630390143737|F|112.22076215505913|0|1|Provisional|Lima Sur|Vencido|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_talla_baja|1|0
+PPA_FN_0047_F_20090809|2026_07|16.974674880219027|F|87.94349540078844|0|1|Provisional|Lima Norte-Callao|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|sobrepeso+talla_baja|1|1
+PPA_FN_0048_F_20120401|2026_07|14.329911019849419|F|87.94349540078844|0|1|Provisional|Lima Norte-Callao|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_talla_baja+sobrepeso|1|1
+PPA_FN_0049_F_20151107|2026_07|10.729637234770705|F|87.94349540078844|0|1|Provisional|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|sobrepeso|1|1
+PPA_FN_0050_F_20110813|2026_07|14.965092402464066|F|149.47437582128777|0|1|Provisional|Lima Este|No tiene|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|obesidad|1|1
+PPA_FN_0051_F_20160918|2026_07|9.86447638603696|F|112.22076215505913|0|1|Provisional|Lima|Actual|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_sobrepeso+riesgo_talla_baja|1|0
+PPA_FN_0052_F_20110916|2026_07|14.872005475701574|F|93.36399474375821|0|0|Provisional|Lima Norte-Callao|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|sobrepeso|1|1
+PPA_FN_0053_F_20120918|2026_07|13.86447638603696|F|111.10381077529566|0|1|Provisional|Lima|No tiene|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|saludable|0|0
+PPA_FN_0054_F_19971112|2026_07|28.71457905544148|F|331.8659658344284|0|1|Otra|Otra|No tiene|Técnico|0|Técnica/taller|0|0|1|1.0|0|0|0|0|0|0|0|19|obesidad|1|1
+PPA_FN_0055_F_20140508|2026_07|12.229979466119097|F|57.91721419185282|0|1|Provisional|Lima Este|Vencido|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_sobrepeso+riesgo_talla_baja|1|0
+PPA_FN_0056_F_20160809|2026_07|9.973990417522245|F|57.91721419185282|0|1|Provisional|Lima Este|Vencido|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_sobrepeso|1|0
+PPA_FN_0057_F_20080129|2026_02|18.083504449007528|F|202.00394218134034|0|1|Definitiva|Otra|No tiene|Primaria|1|CEBE (especial)|0|0|1|3.0|0|0|0|0|0|1|0|14|saludable|0|0
+PPA_FN_0058_F_20120328|2026_07|14.340862422997947|F|57.91721419185282|0|1|Provisional|Lima Este|Vencido|Primaria|1|EBR|0|0|1|1.0|0|0|0|0|0|0|0|19|saludable|0|0
+PPA_FN_0059_F_20070122|2025_01|18.026009582477755|F|165.67017082785807|0|1|Provisional|Lima Este|No tiene|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|1|0|1|obesidad+talla_baja|1|1
+PPA_FN_0060_F_20150125|2026_07|11.512662559890487|F|66.06438896189225|0|1|Provisional|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_talla_baja+sobrepeso|1|1
+PPA_FN_0061_F_20131231|2026_07|12.580424366872005|F|93.36399474375821|0|1|Provisional|Lima Norte-Callao|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_talla_baja|1|0
+PPA_FN_0062_F_20090628|2026_07|17.089664613278575|F|106.37319316688567|0|1|Provisional|Lima|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_talla_baja+sobrepeso|1|1
+PPA_FN_0063_F_20080328|2026_07|18.340862422997947|F|166.7214191852825|0|1|Provisional|Lima|Actual|Técnico|1|Técnica/taller|0|0|0|0.0|0|0|0|0|0|0|0|19|sobrepeso+talla_baja|1|1
+PPA_FN_0064_M_20130128|2026_07|13.503080082135524|M|115.5059132720105|0|1|Definitiva|Lima|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|sobrepeso|1|1
+PPA_FN_0065_M_20161004|2026_07|9.820670773442847|M|115.5059132720105|0|1|Definitiva|Otra|Actual|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_talla_baja|1|0
+PPA_FN_0066_M_20160209|2026_07|10.472279260780287|M|45.630749014454665|0|1|Urgente|Lima Este|Actual|Primaria|1|EBR|0|0|0|0.0|0|1|0|0|1|0|0|19|saludable|0|0
+PPA_FN_0067_M_20120402|2026_07|14.327173169062286|M|108.63994743758212|0|1|Definitiva|Lima Norte-Callao|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|sobrepeso|1|1
+PPA_FN_0068_M_20131128|2026_07|12.670773442847365|M|108.63994743758212|0|1|Definitiva|Lima Norte-Callao|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_talla_baja|1|0
+PPA_FN_0069_M_20130130|2026_07|13.49760438056126|M|62.3850197109067|0|1|Provisional|Lima Norte-Callao|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|saludable|0|0
+PPA_FN_0071_M_20100108|2026_07|16.55852156057495|M|127.8580814717477|0|1|Provisional|Lima Este|Vencido|Secundaria|1|EBR|0|0|0|0.0|1|0|0|1|2|0|0|19|sobrepeso|1|1
+PPA_FN_0073_M_20140517|2026_07|12.205338809034908|M||1|1|Definitiva|Lima Norte-Callao|No tiene|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|obesidad+riesgo_talla_baja|1|1
+PPA_FN_0076_M_20140223|2026_07|12.432580424366872|M|94.57950065703022|0|1|Definitiva|Lima|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|obesidad|1|1
+PPA_FN_0077_M_20140223|2026_07|12.432580424366872|M|94.57950065703022|0|1|Definitiva|Lima|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|1|0|19|saludable|0|0
+PPA_FN_0078_M_20110808|2026_07|14.978781656399725|M|170.40078843626807|0|1|Definitiva|Lima Este|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|saludable|0|0
+PPA_FN_0079_M_20110122|2026_07|15.520876112251882|M|171.55059132720103|0|1|Definitiva|Lima Este|Actual|Secundaria|1|EBR|0|0|0|0.0|1|0|0|1|2|0|0|19|saludable|0|0
+PPA_FN_0080_M_20110404|2026_07|15.323750855578371|M|116.688567674113|0|1|Definitiva|Lima Este|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|1|0|19|sobrepeso|1|1
+PPA_FN_0081_M_20150625|2026_07|11.099247091033538|M|46.97766097240473|0|1|Provisional|Lima Este|Vencido|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|obesidad|1|1
+PPA_FN_0082_M_20120804|2026_07|13.987679671457906|M|89.81603153745071|0|1|Provisional|Lima|Actual|Primaria|1|CEBE (especial)|0|0|1|2.0|1|0|0|1|2|1|0|19|saludable|0|0
+PPA_FN_0083_M_20110510|2026_04|14.973305954825461|M|99.31011826544021|0|0|Provisional|Lima|No tiene|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|16|saludable|0|0
+PPA_FN_0084_M_20160107|2026_07|10.562628336755647|M|87.94349540078844|0|1|Provisional|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|1|0|19|riesgo_sobrepeso+talla_baja|1|1
+PPA_FN_0085_M_20090812|2026_07|16.966461327857633|M|86.30091984231274|0|1|Provisional|Lima Este|Actual|Secundaria|1|EBR|0|0|0|0.0|1|0|0|1|2|0|0|19|saludable|0|0
+PPA_FN_0086_M_20131005|2026_07|12.818617385352498|M|86.30091984231274|0|1|Provisional|Lima Este|Actual|Secundaria|1|EBR|0|0|0|0.0|1|0|0|1|2|0|0|19|obesidad|1|1
+PPA_FN_0088_M_20091116|2026_07|16.70362765229295|M|148.81734559789749|0|1|Provisional|Lima Este|No tiene|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_sobrepeso+talla_baja|1|1
+PPA_FN_0089_M_20081018|2026_07|17.782340862423|M|108.63994743758212|0|1|Definitiva|Lima Norte-Callao|Actual|Secundaria|1|EBA (alternativa)|0|0|0|0.0|1|0|0|1|2|0|0|19|riesgo_sobrepeso+talla_baja|1|1
+PPA_FN_0090_M_20150819|2025_12|10.368240930869268|M|35.183968462549274|0|1|Provisional|Lima Sur|Actual|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|1|0|12|riesgo_sobrepeso+riesgo_talla_baja|1|0
+PPA_FN_0091_M_20170110|2026_07|9.552361396303901|M|108.5742444152431|0|1|Definitiva|Lima|Actual|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|obesidad|1|1
+PPA_FN_0092_M_20160215|2026_07|10.455852156057494|M|93.65965834428383|0|1|Provisional|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|saludable|0|0
+PPA_FN_0093_M_20120609|2026_07|14.140999315537304|M|112.08935611038108|0|1|Definitiva|Lima|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|obesidad|1|1
+PPA_FN_0094_M_20091013|2026_07|16.79671457905544|M|85.742444152431|0|1|Provisional|Lima Norte-Callao|Actual|Secundaria|1|EBA (alternativa)|0|0|1|1.0|1|0|0|1|2|0|0|19|riesgo_talla_baja|1|0
+PPA_FN_0095_M_20120708|2026_07|14.061601642710473|M|63.79763469119579|0|1|Provisional|Lima Norte-Callao|Vencido|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|obesidad|1|1
+PPA_FN_0096_M_20070829|2026_07|18.921286789869953|M|106.37319316688567|0|1|Provisional|Lima|Actual|Secundaria|1|EBR|0|0|1|1.0|0|0|0|0|0|0|0|18|saludable|0|0
+PPA_FN_0097_M_20060817|2025_01|18.458590006844627|M|63.370565045992116|0|0|Provisional|Lima Norte-Callao|Actual|Secundaria|1|EBR|0|0|1|1.0|1|0|0|0|1|0|0|1|saludable|0|0
+PPA_FN_0098_M_20061214|2025_11|18.962354551676935|M|190.86727989487517|0|1|Provisional|Lima Este|No tiene|Técnico|1|Técnica/taller|0|0|0|0.0|0|0|0|0|0|0|0|11|sobrepeso|1|1
+PPA_FN_0099_M_20100705|2026_07|16.071184120465436|M|166.7214191852825|0|1|Provisional|Lima|Actual|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|18|saludable|0|0
+PPA_FN_0100_M_20120703|2026_07|14.075290896646132|M|39.91458607095926|0|1|Provisional|Lima Norte-Callao|Actual|Secundaria|1|EBR|0|0|0|0.0|1|1|0|1|3|1|0|19|riesgo_sobrepeso|1|0
+PPA_FN_0101_M_20120605|2026_07|14.151950718685832|M|39.68462549277267|0|1|Definitiva|Lima Sur|No tiene|Secundaria|1|EBR|0|0|0|0.0|1|0|0|1|2|1|0|19|obesidad|1|1
+PPA_FN_0102_M_20110228|2026_07|15.419575633127995|M|39.68462549277267|0|1|Definitiva|Lima|Actual|Secundaria|1|EBR|0|0|0|0.0|1|0|0|0|1|1|0|19|obesidad|1|1
+PPA_FN_0103_F_20230309|2026_07|3.3949349760438055|F|39.42181340341656|0|1|Provisional|Lima|Actual|Inicial|0|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|saludable|0|0
+PPA_FN_0104_F_20191230|2026_07|6.584531143052704|F|39.12614980289093|0|1|Urgente|Lima Norte-Callao|Vencido|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|saludable|0|0
+PPA_FN_0105_M_20200113|2026_07|6.546201232032854|M|38.96189224704336|0|1|Provisional|Lima Este|Vencido|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|riesgo_sobrepeso|1|0
+PPA_FN_0106_M_20200113|2026_07|6.546201232032854|M|38.96189224704336|0|1|Provisional|Lima Este|Vencido|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|riesgo_sobrepeso|1|0
+PPA_FN_0107_M_20180814|2026_07|7.96167008898015|M|38.96189224704336|0|1|Provisional|Lima Este|Vencido|Primaria|1|EBR|0|0|0|0.0|1|0|0|1|2|0|0|19|riesgo_sobrepeso|1|0
+PPA_FN_0108_F_20180513|2026_07|8.216290212183436|F|38.86333771353482|0|1|Provisional|Lima|Actual|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_talla_baja+sobrepeso|1|1
+PPA_FN_0109_F_20150114|2025_04|10.291581108829568|F|22.07621550591327|0|1|Provisional|Lima Este|No tiene|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|3|obesidad+riesgo_talla_baja|1|1
+PPA_FN_0110_F_20170318|2025_04|8.11772758384668|F|22.07621550591327|0|1|Provisional|Lima Este|No tiene|Ninguno|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|3|sobrepeso|1|1
+PPA_FN_0111_M_20200120|2025_04|5.27583846680356|M|22.07621550591327|0|1|Provisional|Lima Este|No tiene|Inicial|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|3|riesgo_sobrepeso|1|0
+PPA_FN_0112_F_20220530|2025_04|2.91854893908282|F|22.07621550591327|0|1|Provisional|Lima Este|No tiene|Ninguno|0|Ninguna|0|0|0|0.0|1|0|1|0|2|0|0|3|riesgo_sobrepeso|1|0
+PPA_FN_0113_M_20131228|2026_07|12.588637919233403|M|35.90670170827858|0|1|Provisional|Lima|No tiene|Primaria|1|EBR|0|0|0|0.0|0|1|0|0|1|0|0|19|riesgo_talla_baja|1|0
+PPA_FN_0114_M_20110911|2026_07|14.885694729637235|M|35.90670170827858|0|1|Provisional|Lima|No tiene|Secundaria|1|EBR|0|0|0|0.0|1|0|0|1|2|0|0|19|saludable|0|0
+PPA_FN_0115_F_20220430|2026_07|4.251882272416153|F|35.05256241787122|0|1|Provisional|Lima Este|Vencido|Inicial|0|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|obesidad+riesgo_talla_baja|1|1
+PPA_FN_0116_F_20151103|2026_07|10.740588637919233|F|35.05256241787122|0|1|Provisional|Lima Este|Vencido|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|riesgo_sobrepeso|1|0
+PPA_FN_0117_F_20230912|2026_07|2.8829568788501025|F|34.03416557161629|0|1|Provisional|Lima Norte-Callao|Actual|Ninguno|0|Ninguna|0|0|0|0.0|1|0|1|0|2|0|0|19|saludable|0|0
+PPA_FN_0118_M_20111116|2026_07|14.704996577686517|M|33.21287779237845|0|0|Provisional|Lima Sur|Vencido|Secundaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|riesgo_sobrepeso|1|0
+PPA_FN_0119_M_20150624|2026_07|11.101984941820671|M|32.29303547963206|0|1|Provisional|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|sobrepeso|1|1
+PPA_FN_0120_M_20210625|2026_07|5.0978781656399725|M|32.29303547963206|0|1|Provisional|Lima Norte-Callao|Actual|Inicial|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|riesgo_sobrepeso|1|0
+PPA_FN_0121_M_20210817|2026_07|4.952772073921971|M|32.06307490144547|0|1|Provisional|Lima Este|Actual|Inicial|1|EBR|0|0|0|0.0|0|1|0|0|1|0|0|19|talla_baja_severa|1|1
+PPA_FN_0122_M_20150114|2026_07|11.542778918548938|M|32.06307490144547|0|1|Provisional|Lima Este|Actual|Primaria|1|EBR|0|0|0|0.0|0|0|0|1|1|0|0|19|sobrepeso|1|1
+PPA_FN_0123_M_20180325|2026_07|8.350444900752908|M|32.06307490144547|0|1|Provisional|Lima Este|Actual|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|19|saludable|0|0
+PPA_FN_0124_M_20210602|2026_07|5.160848733744011|M|31.044678055190538|0|1|Provisional|Lima Norte-Callao|Vencido|Inicial|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|talla_baja|1|1
+PPA_FN_0125_M_20191122|2026_07|6.6885694729637235|M|31.044678055190538|0|1|Provisional|Lima Norte-Callao|Vencido|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|talla_baja|1|1
+PPA_FN_0126_F_20190702|2026_02|6.661190965092403|F|25.821287779237842|0|0|Provisional|Lima|Actual|Inicial|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|14|saludable|0|0
+PPA_FN_0127_M_20190814|2026_07|6.962354551676934|M|30.02628120893561|0|1|Provisional|Lima Norte-Callao|Actual|Inicial|1|CEBE (especial)|0|0|1|3.0|1|0|0|0|1|0|0|10|obesidad|1|1
+PPA_FN_0127_M_20240129|2025_09|1.6700889801505818|M|20.039421813403415|0|1|Provisional|Lima Norte-Callao|Actual|Inicial|1|CEBE (especial)|0|0|1|1.0|1|0|0|0|1|0|0|9|obesidad|1|1
+PPA_FN_0128_M_20211223|2026_07|4.602327173169062|M|30.02628120893561|0|1|Provisional|Lima Norte-Callao|Actual|Inicial|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|obesidad+talla_baja|1|1
+PPA_FN_0129_F_20111024|2026_07|14.767967145790555|F|29.96057818659658|0|1|Provisional|Lima Norte-Callao|Actual|Secundaria|1|EBR|0|0|0|0.0|1|0|0|1|2|0|0|19|sobrepeso|1|1
+PPA_FN_0130_M_20230721|2025_03|1.6947296372347707|M|12.844940867279893|0|1|Provisional|Lima|No tiene|Ninguno|0|Ninguna|0|0|0|0.0|0|0|1|0|1|0|0|2|saludable|0|0
+PPA_FN_0131_M_20180403|2026_07|8.32580424366872|M|28.777923784494085|0|1|Provisional|Lima|No tiene|Primaria|1|EBR|0|0|0|0.0|1|0|0|1|2|0|0|19|obesidad|1|1
+PPA_FN_0132_M_20140201|2026_07|12.492813141683778|M|28.777923784494085|0|1|Provisional|Lima|No tiene|Primaria|1|EBR|0|0|0|0.0|1|0|0|1|2|0|0|19|talla_baja|1|1
+PPA_FN_0133_M_20190625|2026_07|7.099247091033539|M|28.318002628120894|0|1|Provisional|Lima Sur|Vencido|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|obesidad|1|1
+PPA_FN_0134_F_20181027|2026_07|7.759069130732375|F|28.28515111695138|0|1|Provisional|Lima Este|Actual|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|riesgo_talla_baja+sobrepeso|1|1
+PPA_FN_0135_M_20211125|2026_07|4.678986995208761|M|28.28515111695138|0|1|Provisional|Lima Este|Actual|Inicial|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|talla_baja|1|1
+PPA_FN_0136_F_20170120|2026_07|9.52498288843258|F|27.496714848883048|0|0|Provisional|Lima Norte-Callao|Vencido|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|saludable|0|0
+PPA_FN_0137_F_20130805|2026_07|12.985626283367557|F|27.135348226018397|0|1|Definitiva|Otra|Actual|Secundaria|1|EBR|0|0|0|0.0|1|1|0|0|2|0|0|19|saludable|0|0
+PPA_FN_0138_M_20170220|2026_07|9.440109514031485|M|26.576872536136662|0|1|Provisional|Lima|No tiene|Primaria|1|EBR|0|0|0|0.0|1|0|0|1|2|0|0|19|obesidad|1|1
+PPA_FN_0139_M_20200812|2025_11|5.300479123887748|M|16.491458607095925|0|1|Provisional|Lima Sur|Actual|Inicial|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|11|riesgo_sobrepeso|1|0
+PPA_FN_0140_M_20240722|2026_07|2.023271731690623|M|23.915900131406044|0|1|Provisional|Lima Norte-Callao|Actual|Ninguno|0|Ninguna|0|0|0|0.0|1|0|1|0|2|0|0|19|riesgo_talla_baja|1|0
+PPA_FN_0141_M_20140503|2026_07|12.243668720054757|M|23.88304862023653|0|0|Provisional|Lima Sur|Vencido|Primaria|1|EBR|0|0|0|0.0|1|0|0|1|2|0|0|19|talla_baja_severa|1|1
+PPA_FN_0142_M_20121228|2026_07|13.587953456536619|M|23.88304862023653|0|0|Provisional|Lima Sur|Vencido|Primaria|1|EBR|0|0|0|0.0|1|0|0|1|2|0|0|19|talla_baja_severa|1|1
+PPA_FN_0143_F_20210306|2026_07|5.401779603011636|F|23.88304862023653|0|0|Provisional|Lima Sur|Vencido|Inicial|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|19|riesgo_talla_baja|1|0
+PPA_FN_0144_F_20241228|2025_12|1.0075290896646132|F|12.02365308804205|0|1|Provisional|Lima Sur|Vencido|Ninguno|0|Ninguna|0|0|0|0.0|0|0|1|0|1|0|0|10|saludable|0|0
+PPA_FN_0145_M_20201003|2026_07|5.823408624229979|M|16.16294349540079|0|1|Provisional|Lima Norte-Callao|Actual|Inicial|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|17|saludable|0|0
+PPA_FN_0146_F_20230106|2026_07|3.564681724845996|F|16.16294349540079|0|1|Provisional|Lima Norte-Callao|Actual|Inicial|0|EBR|0|0|0|0.0|1|0|0|0|1|0|0|17|saludable|0|0
+PPA_FN_0147_M_20180106|2026_07|8.563997262149213|M|15.243101182654401|0|1|Provisional|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|17|saludable|0|0
+PPA_FN_0148_M_20150705|2026_07|11.071868583162217|M|15.243101182654401|0|1|Provisional|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|17|saludable|0|0
+PPA_FN_0149_F_20250104|2026_07|1.568788501026694|F|14.586070959264125|0|1|Provisional|Lima Norte-Callao|Actual|Ninguno|0|Ninguna|0|0|0|0.0|1|0|1|0|2|0|0|16|saludable|0|0
+PPA_FN_0150_F_20181120|2026_07|7.693360711841205|F|14.586070959264125|0|1|Provisional|Lima|Actual|Primaria|1|EBR|0|0|0|0.0|1|0|0|0|1|0|0|16|saludable|0|0
+PPA_FN_0151_M_20210617|2026_07|5.119780971937029|M|14.060446780551905|0|1|Provisional|Lima|No tiene|Inicial|1|EBR|0|0|0|0.0|1|0|0|0|1|0|1|16|saludable|0|0
+PPA_FN_0152_M_20201117|2026_07|5.700205338809035|M|14.750328515111695|0|1|Provisional|Lima Norte-Callao|Vencido|Inicial|1|EBR|0|0|0|0.0|1|0|0|0|1|0|1|16|saludable|0|0
+PPA_FN_0156_M_20170416|2026_07|9.289527720739219|M|62.3850197109067|0|1|Provisional|Lima Norte-Callao|Actual|Primaria|1|EBR|0|0|0|0.0|0|0|0|0|0|0|0|11|saludable|0|0
