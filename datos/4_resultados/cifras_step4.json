@@ -1,0 +1,8 @@
+{
+ "ninos_train": 90,
+ "ninos_test": 31,
+ "filas_train": 236,
+ "filas_test": 88,
+ "pca_cp1": 84.1,
+ "res_peso_con_alteracion": 3.72
+}
