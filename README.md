@@ -41,8 +41,7 @@ TA_E10/
 | 8 | `Step5_Seleccion_Tarea_de_Mineria` | 5 | Tarea por objetivo y auditoría de discrepancias para la nutricionista |
 | 9 | `Step6_Seleccion_de_Algoritmos` | 6 | Logística, KNN, SVC con CV agrupada por niño en `Pipeline`, permutaciones, ablación, K-Means, sensibilidad a la semilla |
 
-Cada notebook explica cada celda de código, interpreta sus resultados, verifica con `assert` las cifras que cita
-y termina con su declaración de uso de IA.
+Cada notebook explica cada celda de código, interpreta sus resultados y verifica con `assert` las cifras que cita.
 
 ## Cómo ejecutar
 
@@ -94,7 +93,7 @@ Conforme a los lineamientos del curso, el equipo declara el uso de IA generativa
   - `ejecutar_todo.py` ejecuta todo desde cero y comprueba que los datos crudos no cambiaron y que no queden archivos huérfanos.
 
   El equipo revisa, ejecuta y puede explicar cada paso.
-- Cada notebook incluye al final su propia declaración de lo que hizo la IA en ese paso.
+- Esta declaración cubre todos los notebooks y archivos del proyecto.
 
 ### Anexo: prompts principales
 
