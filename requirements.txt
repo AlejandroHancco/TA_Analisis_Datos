@@ -1,0 +1,12 @@
+pandas==2.3.3
+numpy==2.3.2
+scipy==1.16.3
+scikit-learn==1.7.2
+matplotlib==3.10.5
+seaborn==0.13.2
+openpyxl==3.1.5
+python-pptx==1.0.2
+nbformat==5.10.4
+nbconvert==7.16.6
+nbclient==0.10.2
+ipykernel==7.1.0
