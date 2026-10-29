@@ -1,0 +1,66 @@
+id_nna|evaluaciones_con_discrepancia|edad_media|periodos|tipos|IMC_OMS|TE_OMS|evaluaciones_totales
+PPA_FN_0140_M_20240722|4|1.6|2026_01, 2026_02, 2026_03, 2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Obesidad, Sobrepeso, Sobrepeso, Obesidad|Riesgo talla baja, Normal, Normal, Normal|5
+PPA_FN_0018_M_20180824|3|7.6|2026_01, 2026_04, 2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Normal, Riesgo bajo peso, Bajo peso|Talla baja, Talla baja, Talla baja severa|3
+PPA_FN_0028_F_20150131|3|11.2|2026_01, 2026_04, 2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Riesgo bajo peso, Riesgo bajo peso, Bajo peso|Talla baja, Talla baja, Talla baja severa|3
+PPA_FN_0094_M_20091013|3|16.5|2026_01, 2026_04, 2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Normal, Normal, Normal|Talla baja, Talla baja, Talla baja severa|3
+PPA_FN_0100_M_20120703|3|13.8|2026_01, 2026_04, 2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso, Sobrepeso, Obesidad|Alto, Normal, Normal|3
+PPA_FN_0123_M_20180325|3|8.0|2026_01, 2026_04, 2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso, Sobrepeso, Obesidad|Riesgo talla baja, Riesgo talla baja, Talla baja|3
+PPA_FN_0150_F_20181120|3|7.4|2026_01, 2026_04, 2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Normal, Normal, Riesgo sobrepeso|Talla baja, Talla baja, Talla baja severa|3
+PPA_FN_0011_F_20200304|2|6.0|2026_01, 2026_04|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso, Riesgo sobrepeso|Normal, Riesgo talla baja|3
+PPA_FN_0015_M_20190202|2|7.1|2026_01, 2026_04|ficha 'con alteración' pero la medición es normal|Normal, Normal|Riesgo talla baja, Riesgo talla baja|3
+PPA_FN_0016_M_20181030|2|7.3|2026_01, 2026_04|ficha 'con alteración' pero la medición es normal|Normal, Normal|Riesgo talla baja, Riesgo talla baja|3
+PPA_FN_0017_M_20180914|2|7.5|2026_01, 2026_04|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso, Riesgo sobrepeso|Riesgo talla baja, Riesgo talla baja|3
+PPA_FN_0024_F_20180703|2|7.9|2026_04, 2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso, Obesidad|Normal, Riesgo talla baja|3
+PPA_FN_0035_F_20141106|2|11.4|2026_01, 2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Normal, Normal|Talla baja, Talla baja severa|3
+PPA_FN_0038_F_20100715|2|15.7|2026_01, 2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Normal, Normal|Talla baja, Talla baja severa|3
+PPA_FN_0049_F_20151107|2|10.3|2026_01, 2026_04|ficha 'con alteración' pero la medición es normal|Normal, Normal|Riesgo talla baja, Riesgo talla baja|3
+PPA_FN_0065_M_20161004|2|9.5|2026_01, 2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Normal, Normal|Talla baja, Talla baja severa|3
+PPA_FN_0071_M_20100108|2|16.1|2026_01, 2026_04|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso, Riesgo sobrepeso|Riesgo talla baja, Riesgo talla baja|3
+PPA_FN_0073_M_20140517|2|11.8|2026_01, 2026_04|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso, Riesgo sobrepeso|Riesgo talla baja, Riesgo talla baja|3
+PPA_FN_0080_M_20110404|2|14.9|2026_01, 2026_04|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso, Riesgo sobrepeso|Riesgo talla baja, Riesgo talla baja|2
+PPA_FN_0091_M_20170110|2|9.1|2026_01, 2026_04|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso, Riesgo sobrepeso|Alto, Normal|3
+PPA_FN_0119_M_20150624|2|10.7|2026_01, 2026_04|ficha 'con alteración' pero la medición es normal|Normal, Riesgo sobrepeso|Normal, Normal|3
+PPA_FN_0120_M_20210625|2|4.8|2026_01, 2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso, Sobrepeso|Normal, Normal|3
+PPA_FN_0122_M_20150114|2|11.1|2026_01, 2026_04|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso, Riesgo sobrepeso|Normal, Normal|3
+PPA_FN_0125_M_20191122|2|6.3|2026_01, 2026_04|ficha 'con alteración' pero la medición es normal|Normal, Normal|Normal, Riesgo talla baja|3
+PPA_FN_0134_F_20181027|2|7.3|2026_01, 2026_04|ficha 'con alteración' pero la medición es normal|Normal, Riesgo sobrepeso|Riesgo talla baja, Riesgo talla baja|3
+PPA_FN_0135_M_20211125|2|4.3|2026_01, 2026_04|ficha 'con alteración' pero la medición es normal|Normal, —|Normal, Normal|3
+PPA_FN_0146_F_20230106|2|3.2|2026_01, 2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Riesgo sobrepeso, Riesgo sobrepeso|Talla baja, Talla baja|5
+PPA_FN_0149_F_20250104|2|1.3|2026_03, 2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso, Sobrepeso|Normal, Talla baja|5
+PPA_FN_0004_M_20230901|1|3.4|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso|Talla baja|3
+PPA_FN_0006_F_20220530|1|4.0|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Normal|Talla baja|3
+PPA_FN_0020_F_20171214|1|8.5|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso|Talla baja|3
+PPA_FN_0022_F_20170618|1|9.0|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso|Normal|3
+PPA_FN_0023_F_20180924|1|7.7|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso|Talla baja|3
+PPA_FN_0026_F_20080907|1|17.8|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Normal|Talla baja|3
+PPA_FN_0042_F_20111201|1|14.5|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Normal|Talla baja severa|3
+PPA_FN_0046_F_20090308|1|17.3|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Riesgo bajo peso|Talla baja|3
+PPA_FN_0048_F_20120401|1|13.8|2026_01|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso|Riesgo talla baja|1
+PPA_FN_0050_F_20110813|1|14.4|2026_01|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso|Normal|1
+PPA_FN_0052_F_20110916|1|14.3|2026_01|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso|Normal|1
+PPA_FN_0055_F_20140508|1|12.1|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso|Talla baja|3
+PPA_FN_0058_F_20120328|1|14.2|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso|Riesgo talla baja|3
+PPA_FN_0060_F_20150125|1|11.0|2026_01|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso|Alto|3
+PPA_FN_0064_M_20130128|1|13.0|2026_01|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso|Normal|1
+PPA_FN_0067_M_20120402|1|13.8|2026_01|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso|Normal|1
+PPA_FN_0076_M_20140223|1|12.1|2026_04|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso|Alto|2
+PPA_FN_0079_M_20110122|1|15.4|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Normal|Talla baja|3
+PPA_FN_0082_M_20120804|1|13.9|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Riesgo bajo peso|Talla baja|3
+PPA_FN_0086_M_20131005|1|12.3|2026_01|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso|Normal|2
+PPA_FN_0095_M_20120708|1|13.5|2026_01|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso|Normal|1
+PPA_FN_0105_M_20200113|1|6.4|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso|Normal|3
+PPA_FN_0106_M_20200113|1|6.4|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso|Normal|3
+PPA_FN_0108_F_20180513|1|7.7|2026_01|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso|Normal|3
+PPA_FN_0113_M_20131228|1|12.5|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Normal|Talla baja|3
+PPA_FN_0115_F_20220430|1|4.0|2026_04|ficha 'con alteración' pero la medición es normal|—|Normal|3
+PPA_FN_0116_F_20151103|1|10.6|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso|Talla baja|3
+PPA_FN_0117_F_20230912|1|2.3|2026_01|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso|Alto|5
+PPA_FN_0124_M_20210602|1|4.9|2026_04|ficha 'con alteración' pero la medición es normal|—|Normal|3
+PPA_FN_0128_M_20211223|1|4.3|2026_04|ficha 'con alteración' pero la medición es normal|—|Normal|3
+PPA_FN_0129_F_20111024|1|14.2|2026_01|ficha 'con alteración' pero la medición es normal|Normal|Normal|1
+PPA_FN_0133_M_20190625|1|6.8|2026_04|ficha 'con alteración' pero la medición es normal|Riesgo sobrepeso|Normal|3
+PPA_FN_0136_F_20170120|1|9.4|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Obesidad|Normal|3
+PPA_FN_0143_F_20210306|1|5.3|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso|Riesgo talla baja|3
+PPA_FN_0145_M_20201003|1|5.7|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso|Talla baja|3
+PPA_FN_0147_M_20180106|1|8.4|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso|Normal|3
+PPA_FN_0148_M_20150705|1|10.9|2026_06|ficha 'sin alteración' pero la medición indica exceso o talla baja|Sobrepeso|Normal|3
