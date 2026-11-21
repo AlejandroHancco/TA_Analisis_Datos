@@ -20,8 +20,6 @@ ORDEN = [
     "Step2a_Consolidacion_Bloque2.ipynb",
     "Step2b_Seleccion_y_Entendimiento.ipynb",
     "Step3_Limpieza_y_Preprocesamiento.ipynb",
-    "Anexo_Step4_solo_ficha.ipynb",
-    "Anexo_Step6_solo_ficha.ipynb",
     "Step4_Reduccion_y_Proyeccion.ipynb",
     "Step5_Seleccion_Tarea_de_Mineria.ipynb",
     "Step6_Seleccion_de_Algoritmos.ipynb",
