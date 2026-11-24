@@ -10,5 +10,14 @@
  "ninos_con_cambio": 124,
  "hopkins": 0.641,
  "hopkins_nulo": 0.657,
- "p_hopkins": 0.811
+ "p_hopkins": 0.811,
+ "ninos_atencion": 158,
+ "vars_atencion": 10,
+ "r_acompan_sin_soporte": -0.82,
+ "r_tiempo_hogar_edad": 0.73,
+ "hopkins_atencion": 0.809,
+ "hopkins_atencion_perm": 0.755,
+ "hopkins_atencion_normal": 0.625,
+ "p_hopkins_atencion_perm": 0.065,
+ "p_hopkins_atencion_normal": 0.005
 }

@@ -22,6 +22,7 @@ ORDEN = [
     "Step3_Limpieza_y_Preprocesamiento.ipynb",
     "Step4_Reduccion_y_Proyeccion.ipynb",
     "Step5_Seleccion_Tarea_de_Mineria.ipynb",
+    "Anexo_Step6_clustering_nutricional.ipynb",
     "Step6_Seleccion_de_Algoritmos.ipynb",
 ]
 GENERADOS = [RAIZ / "datos" / d for d in ["1_consolidados", "2_limpios", "3_transformados", "4_resultados"]] + [RAIZ / "figuras"]
@@ -38,10 +39,11 @@ def verificar_crudos():
 
 
 def limpiar():
+    # Se borra el contenido y no la carpeta: OneDrive y otros sincronizadores bloquean a veces el borrado de carpetas.
     for d in GENERADOS:
-        if d.exists():
-            shutil.rmtree(d)
-        d.mkdir(parents=True)
+        d.mkdir(parents=True, exist_ok=True)
+        for p in d.iterdir():
+            shutil.rmtree(p) if p.is_dir() else p.unlink()
     print("[ok] salidas anteriores borradas")
 
 

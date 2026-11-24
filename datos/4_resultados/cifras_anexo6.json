@@ -1,0 +1,41 @@
+{
+ "bic_k_optimo": 1,
+ "ari_elegido": 0.699,
+ "silueta_elegido": 0.359,
+ "p_silueta_elegido": 0.275,
+ "ari_regla_oms": 0.308,
+ "ari_ficha": 0.088,
+ "nmi_ficha": 0.099,
+ "ari_regla_ficha": 0.219,
+ "grupos_tamano": [
+  32,
+  43,
+  45,
+  19
+ ],
+ "grupos_z_imc": [
+  0.21,
+  0.42,
+  1.52,
+  2.09
+ ],
+ "grupos_z_talla": [
+  -2.23,
+  -0.31,
+  -1.32,
+  0.48
+ ],
+ "grupos_pct_alteracion_ficha": [
+  43.3,
+  10.3,
+  51.2,
+  68.4
+ ],
+ "grupos_pct_subregistro": [
+  43.3,
+  17.9,
+  26.8,
+  26.3
+ ],
+ "hdbscan_ruido_min": 33.8
+}

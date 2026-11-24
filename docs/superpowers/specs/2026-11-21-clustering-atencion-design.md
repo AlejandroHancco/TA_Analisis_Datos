@@ -112,3 +112,9 @@ k = 2…6 en todos, salvo HDBSCAN.
 - El k final y los nombres de los perfiles se deciden **después** de ver los resultados, con la regla de §5.
 - La redacción de las interpretaciones, siguiendo las anti-metas de §2.
 - `actualizar_entregables.py` sigue fuera del alcance (pendiente aparte).
+
+## 7. Resultado de la implementación (2026-11-24)
+
+- Con la validación de §5, **ningún clustering cumplió la regla**. El más estable (K-Means, k = 2; ARI 0,75) repetía la situación legal definitiva (ARI 0,75 con esa variable), y el clustering de secuencias mes a mes repetía el estado predominante (ARI 0,99). La prueba rápida inicial estaba inflada por variables duplicadas.
+- Se evaluaron otras cuatro ideas con criterios fijados de antemano: PCA, predicción del cambio nutricional (R² ≈ 0), efecto del hogar (ICC ≈ 0) y reglas de asociación (solo reglas obvias). **El PCA fue la única que dio estructura real, estable y no trivial:** 2 dimensiones (permanencia e intensidad psicosocial) que superan el análisis paralelo, con Tucker 0,93 y 0,86.
+- El Step 6 quedó como **selección de algoritmos**: se compara clustering y PCA, y se elige el PCA, con un mapa de la atención y un índice de prioridad (51 niños de larga permanencia y baja atención). El clustering nutricional quedó como anexo.
