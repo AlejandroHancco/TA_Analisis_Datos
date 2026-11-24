@@ -13,6 +13,7 @@ Se sigue el proceso KDD de Fayyad et al.; cada notebook corresponde a un paso.
 > **Cómo se llegó aquí.** El avance clasificaba la etiqueta nutricional de la ficha (AUC ≈ 0,85; commit `f34c0d9`), pero imitaba un registro
 > manual con rezago. Después se probó clustering, primero con la nutrición y luego con la atención, como en la literatura de acogimiento
 > residencial. Ninguno encontró grupos que no estuvieran ya escritos en la ficha. El PCA sí encontró estructura real, estable y no trivial.
+> Los entregables del avance (presentación, ficha técnica, Gantt y su script) quedan en el historial de git, commit `f34c0d9`.
 
 ## Estructura
 
@@ -21,7 +22,6 @@ TA_Analisis_Datos/
 ├── README.md                  este archivo (incluye la declaración de uso de IA)
 ├── requirements.txt           versiones de las librerías
 ├── run_all.py                 ejecuta todos los notebooks desde cero y verifica el resultado
-├── actualizar_entregables.py  entregables del AVANCE (pendiente de adaptar, ver abajo)
 ├── src/oms.py                 puntajes z OMS (método LMS) de IMC y talla para la edad
 ├── datos/
 │   ├── 0_crudos/              originales, solo lectura (hashes.json verifica que no cambien)
@@ -31,8 +31,7 @@ TA_Analisis_Datos/
 │   ├── 3_transformados/       Step4: variables de atención por niño, mediciones con z y estado nutricional por niño
 │   └── 4_resultados/          Step5, Step6 y anexo: auditoría, comparación de métodos, mapa e índice de prioridad, cifras_*.json
 ├── notebooks/                 un notebook por paso KDD (ver orden)
-├── figuras/                   prefijo = paso que la genera
-└── entregables/               FichaTecnica_E10.xlsx, Gantt_E10.xlsx, Avance_TA_E10.pptx (+ plantillas/ originales)
+└── figuras/                   prefijo = paso que la genera
 ```
 
 ## Notebooks y orden de ejecución
@@ -80,7 +79,6 @@ python run_all.py                 # ≈5 min; se detiene ante cualquier error o 
 - **Step 7 – Minería:** recalcular el índice con los meses nuevos de ficha y medir cuánto se mueve cada niño en el mapa.
 - **Step 8 – Interpretación:** validar los nombres de las dimensiones y la lista de prioridad con el equipo del Puericultorio; revisar la diferencia entre UPE.
 - **Step 9 – Consolidación:** informe final, ficha técnica y Gantt finales.
-- `actualizar_entregables.py` todavía genera los entregables del **avance** con sus cifras, que ya no existen. Hay que adaptarlo antes de regenerar la presentación.
 
 ## Declaración de uso de IA generativa
 
@@ -91,6 +89,6 @@ Conforme a los lineamientos del curso, el equipo declara el uso de IA generativa
   - revisión de los notebooks anteriores (auditoría de pasos innecesarios, errores y fugas de información);
   - auditoría del consolidado de nutrición contra los 6 Excel originales;
   - diseño y reconstrucción del proyecto: estructura de carpetas, código de los notebooks y redacción de sus interpretaciones;
-  - scripts `run_all.py` y `actualizar_entregables.py`, y actualización de la ficha técnica, el Gantt y la presentación;
+  - script `run_all.py`;
   - reorientación del pipeline: cálculo de z OMS (`src/oms.py`), trayectoria de atención por niño, comparación de clustering y PCA con referencias nulas y estabilidad, índice de prioridad y redacción de las interpretaciones.
 - **Justificación:** acelerar el trabajo operativo y detectar errores de ejecución. Las decisiones de análisis (objetivo, unidad de análisis, variables, algoritmo elegido) son responsabilidad del equipo y deben revisarse antes de la entrega.
