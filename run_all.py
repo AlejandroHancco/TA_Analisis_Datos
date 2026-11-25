@@ -24,6 +24,9 @@ ORDEN = [
     "Step5_Seleccion_Tarea_de_Mineria.ipynb",
     "Anexo_Step6_clustering_nutricional.ipynb",
     "Step6_Seleccion_de_Algoritmos.ipynb",
+    "Step7_Mineria_de_Datos.ipynb",
+    "Step8_Interpretacion.ipynb",
+    "Step9_Consolidacion.ipynb",
 ]
 GENERADOS = [RAIZ / "datos" / d for d in ["1_consolidados", "2_limpios", "3_transformados", "4_resultados"]] + [RAIZ / "figuras"]
 

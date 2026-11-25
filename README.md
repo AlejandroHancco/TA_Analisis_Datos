@@ -1,6 +1,6 @@
 # TA E10 – Estructura de la atención y prioridad de seguimiento (Puericultorio Pérez Araníbar)
 
-**Curso:** Análisis de Datos 1INF03 (PUCP), 2026-2 · **Equipo:** E10 · **Entrega:** KDD Steps 1–6
+**Curso:** Análisis de Datos 1INF03 (PUCP), 2026-2 · **Equipo:** E10 · **Entrega:** final, ciclo KDD completo (Steps 1–9)
 
 El Puericultorio registra cada mes, en la ficha nominal, la atención que recibe cada NNA (soporte psicoemocional, salud mental,
 plan de trabajo individual, situación legal) y, aparte, sus mediciones de peso y talla. Este proyecto:
@@ -8,7 +8,7 @@ plan de trabajo individual, situación legal) y, aparte, sus mediciones de peso 
 2. describe el **estado nutricional** con puntajes z de la OMS y prueba si se asocia con la atención;
 3. **audita** las evaluaciones en que la ficha y la clasificación OMS de las mediciones no coinciden.
 
-Se sigue el proceso KDD de Fayyad et al.; cada notebook corresponde a un paso.
+Se siguen los nueve pasos del proceso KDD de Fayyad, Piatetsky-Shapiro y Smyth (1996); cada notebook corresponde a un paso.
 
 > **Cómo se llegó aquí.** El avance clasificaba la etiqueta nutricional de la ficha (AUC ≈ 0,85; commit `f34c0d9`), pero imitaba un registro
 > manual con rezago. Después se probó clustering, primero con la nutrición y luego con la atención, como en la literatura de acogimiento
@@ -23,15 +23,17 @@ TA_Analisis_Datos/
 ├── requirements.txt           versiones de las librerías
 ├── run_all.py                 ejecuta todos los notebooks desde cero y verifica el resultado
 ├── src/oms.py                 puntajes z OMS (método LMS) de IMC y talla para la edad
+├── src/atencion.py            recalcula el índice de prioridad con meses nuevos de ficha (Step 9)
 ├── datos/
 │   ├── 0_crudos/              originales, solo lectura (hashes.json verifica que no cambien)
 │   │   └── referencias/oms_lms/   tablas LMS oficiales de la OMS (who.int): 0–5 años (2006) y 5–19 años (2007)
 │   ├── 1_consolidados/        Step2a: Bloque 2 consolidado desde los 6 Excel mensuales
 │   ├── 2_limpios/             Step3: ficha limpia, Bloque 2 limpio, mediciones, evaluaciones, trayectoria de atención por niño
 │   ├── 3_transformados/       Step4: variables de atención por niño, mediciones con z y estado nutricional por niño
-│   └── 4_resultados/          Step5, Step6 y anexo: auditoría, comparación de métodos, mapa e índice de prioridad, cifras_*.json
+│   └── 4_resultados/          Steps 5–9 y anexo: auditoría, comparación de métodos, modelo PCA, puntajes, lista de prioridad, cifras_*.json
 ├── notebooks/                 un notebook por paso KDD (ver orden)
 ├── figuras/                   prefijo = paso que la genera
+├── entregables/               informe final (.docx), presentación final (.pptx), ficha técnica y Gantt finales (.xlsx)
 └── fuentes/                   PDF de las referencias (ver fuentes/README.md)
 ```
 
@@ -46,7 +48,10 @@ TA_Analisis_Datos/
 | 5 | `Step4_Reduccion_y_Proyeccion` | 4 | z OMS de IMC y talla (verificados contra las tablas); variables de atención, redundancia y Hopkins frente a dos nulas |
 | 6 | `Step5_Seleccion_Tarea_de_Mineria` | 5 | Tarea por objetivo y auditoría de discrepancias para la nutricionista |
 | 7 | `Anexo_Step6_clustering_nutricional` | 6 | Antecedente: clustering por z OMS (sin grupos naturales) |
-| 8 | `Step6_Seleccion_de_Algoritmos` | 6 | Compara clustering (K-Means, Ward, Gower, LCA, HDBSCAN, secuencias) y **PCA**; elige el PCA; mapa de la atención e índice de prioridad |
+| 8 | `Step6_Seleccion_de_Algoritmos` | 6 | Compara clustering (K-Means, Ward, Gower, LCA, HDBSCAN, secuencias) y **PCA** con reglas fijadas antes; elige el PCA |
+| 9 | `Step7_Mineria_de_Datos` | 7 | Ajusta el PCA, guarda el modelo, calcula puntajes, cuadrantes e índice de prioridad; robustez bootstrap |
+| 10 | `Step8_Interpretacion` | 8 | Interpreta los cuadrantes, su relación con edad, UPE, sexo y nutrición; **evaluación comparativa de los modelos**; iteraciones |
+| 11 | `Step9_Consolidacion` | 9 | Función reutilizable (`src/atencion.py`), lista de prioridad, hallazgos y acciones, conclusiones |
 
 Cada notebook explica cada celda de código, interpreta sus resultados y verifica con `assert` las cifras que cita.
 
@@ -55,7 +60,7 @@ Cada notebook explica cada celda de código, interpreta sus resultados y verific
 ```bash
 python -m venv .venv && .venv\Scripts\activate     # Windows (en Linux/Mac: source .venv/bin/activate)
 pip install -r requirements.txt
-python run_all.py                 # ≈5 min; se detiene ante cualquier error o assert fallido
+python run_all.py                 # ≈8 min; se detiene ante cualquier error o assert fallido
 ```
 
 `Step2a` compara el consolidado nuevo con el anterior (`../Output/datos/raw/Nutricion_Consolidado_2026.xlsx`) si ese archivo existe; si no, omite la comparación.
@@ -69,17 +74,20 @@ python run_all.py                 # ≈5 min; se detiene ante cualquier error o 
   **permanencia** (situación definitiva, tiempo en el hogar, sin PTI) e **intensidad psicosocial** (salud mental, acompañamiento, talleres, discapacidad).
   Son independientes: **la atención psicosocial no aumenta con la permanencia**.
 - **Índice de prioridad:** 51 niños (32 %) tienen permanencia alta e intensidad baja. Llevan en promedio 8 años en el hogar, el 84 % pasó la mitad
-  de los meses o más sin soporte psicoemocional, el 63 % sin PTI y ninguno recibió salud mental especializada (`step6_mapa_atencion.csv`).
-- **La permanencia difiere entre UPE** (*p* < 0,001); la intensidad psicosocial no depende de la edad ni de la UPE.
+  de los meses o más sin soporte psicoemocional, el 63 % sin PTI y ninguno recibió salud mental especializada. 23 de ellos quedan en prioridad en al menos el 80 % de 300 remuestreos (`step9_lista_prioridad.csv`).
+- **La permanencia difiere entre UPE** (*p* < 0,001); la intensidad psicosocial no depende de la edad ni de la UPE, y es algo mayor en varones (*p* = 0,01).
 - **Nutrición:** la población pesa más y mide menos de lo esperado (z de IMC +0,98; z de talla −0,94). El exceso de peso (≈ 40 %) es igual en todos los
   hogares, sexos, edades y perfiles de atención: es un problema **institucional**, no focalizado.
 - **Auditoría:** la ficha y la clasificación OMS concuerdan en el 68,8 % de las evaluaciones, y la institución usa cortes más laxos que la OMS.
 
-## Pendiente para la entrega final (Steps 7–9)
+## Entregables
 
-- **Step 7 – Minería:** recalcular el índice con los meses nuevos de ficha y medir cuánto se mueve cada niño en el mapa.
-- **Step 8 – Interpretación:** validar los nombres de las dimensiones y la lista de prioridad con el equipo del Puericultorio; revisar la diferencia entre UPE.
-- **Step 9 – Consolidación:** informe final, ficha técnica y Gantt finales.
+En `entregables/`:
+- `Informe_Final_TA_E10.docx`: informe por pasos KDD, con figuras, tablas, referencias y anexos.
+- `Presentacion_Final_TA_E10.pptx`: 17 láminas con notas para el expositor.
+- `FichaTecnica_E10_final.xlsx` y `Gantt_E10_final.xlsx`: ficha técnica y diagrama de Gantt finales.
+
+Los nombres de los integrantes aparecen como `[Nombre]` junto a cada código: hay que completarlos antes de entregar.
 
 ## Referencias
 

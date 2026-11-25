@@ -1,19 +1,35 @@
 {
  "clustering_cumple_regla": 0,
  "ari_mas_estable": 0.746,
+ "p_permutada_mas_estable": 0.09,
  "ari_con_legal": 0.753,
  "ari_sin_legal": 0.149,
  "lca_bic_k": 2,
+ "ari_lca_kmeans": 0.346,
  "secuencias_ari_modal": 0.988,
  "secuencias_sin_cambio": 51,
  "pca_componentes": 2,
  "pca_varianza": 40.9,
+ "pca_varianza_por_comp": [
+  23.8,
+  17.1
+ ],
+ "autovalores": [
+  2.39,
+  1.73,
+  1.22
+ ],
+ "paralelo_p95": [
+  1.55,
+  1.37,
+  1.26
+ ],
  "tucker": [
   0.93,
   0.862
  ],
- "ninos_prioridad": 51,
- "prioridad_pct_sin_soporte": 84.3,
- "prioridad_pct_sin_pti": 62.7,
- "rho_permanencia_edad": 0.51
+ "tucker_p10": [
+  0.844,
+  0.714
+ ]
 }

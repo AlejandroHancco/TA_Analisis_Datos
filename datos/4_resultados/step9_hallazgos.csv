@@ -1,0 +1,7 @@
+hallazgo|evidencia|acción sugerida
+La atención psicosocial no aumenta con la permanencia (dos dimensiones independientes)|PCA: 2 dimensiones reales y estables (Tucker 0.86–0.93); 40.9 % de la varianza|Revisar el plan de atención de los niños de larga permanencia
+51 niños de larga permanencia con muy poca atención|84.3 % sin soporte la mayoría de meses; 62.7 % sin PTI; 0 % con salud mental especializada|Revisar la lista caso por caso, empezando por los 23 más estables (≥ 80 % de remuestreos)
+La permanencia difiere entre UPE; la atención no depende de la UPE ni de la edad|Kruskal-Wallis p < 0,001 (permanencia) y p = 0.26 (intensidad)|Revisar con cada UPE los tiempos de permanencia y la elaboración del PTI
+El exceso de peso es generalizado y no depende de la atención|z de IMC medio +0.98; ≈ 40 % con exceso en todos los hogares, edades y cuadrantes|Intervención nutricional institucional (alimentación, actividad física), no focalizada
+La ficha no refleja bien el estado nutricional|Concordancia ficha–OMS 68.8 %; la etiqueta no cambió en 19 meses; cortes más laxos que la OMS|Calcular los z OMS de forma automática (src/oms.py) y actualizar la ficha con cada medición
+La ficha no registra variables que permitan perfiles de niños|Todo clustering repite la situación legal o el estado predominante|Registrar motivo de ingreso detallado, desempeño escolar y conducta para análisis futuros

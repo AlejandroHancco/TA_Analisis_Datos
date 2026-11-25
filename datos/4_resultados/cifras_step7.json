@@ -1,0 +1,41 @@
+{
+ "varianza": [
+  23.8,
+  17.1
+ ],
+ "cuadrantes": {
+  "Prioridad: larga permanencia, baja atenci\u00f3n": 51,
+  "Reciente, baja atenci\u00f3n": 48,
+  "Reciente, atenci\u00f3n activa": 39,
+  "Larga permanencia, atenci\u00f3n activa": 20
+ },
+ "ninos_prioridad": 51,
+ "prioridad_estables_80": 23,
+ "estabilidad_mediana": 76.7,
+ "cargas": {
+  "Permanencia": {
+   "tiempo_hogar": 0.43,
+   "legal_definitiva": 0.48,
+   "p_acompan": -0.27,
+   "p_psicoter": -0.08,
+   "p_taller": -0.27,
+   "p_salud_mental": 0.24,
+   "p_pti_vencido": -0.36,
+   "p_pti_no_tiene": 0.42,
+   "discap_sev": 0.07,
+   "anemia_alguna": 0.25
+  },
+  "Intensidad psicosocial": {
+   "tiempo_hogar": -0.06,
+   "legal_definitiva": 0.09,
+   "p_acompan": 0.46,
+   "p_psicoter": 0.32,
+   "p_taller": 0.37,
+   "p_salud_mental": 0.53,
+   "p_pti_vencido": 0.02,
+   "p_pti_no_tiene": 0.01,
+   "discap_sev": 0.38,
+   "anemia_alguna": 0.32
+  }
+ }
+}

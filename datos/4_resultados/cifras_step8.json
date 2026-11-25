@@ -1,0 +1,16 @@
+{
+ "cuadrantes": {
+  "Larga permanencia, atenci\u00f3n activa": 20,
+  "Prioridad: larga permanencia, baja atenci\u00f3n": 51,
+  "Reciente, atenci\u00f3n activa": 39,
+  "Reciente, baja atenci\u00f3n": 48
+ },
+ "prioridad_pct_sin_soporte": 84.3,
+ "prioridad_pct_sin_pti": 62.7,
+ "prioridad_tiempo_hogar": 95.6,
+ "rho_permanencia_edad": 0.51,
+ "p_permanencia_upe": 0.0,
+ "p_intensidad_upe": 0.2593,
+ "p_intensidad_edad": 0.0676,
+ "p_intensidad_sexo": 0.0135
+}
