@@ -11,10 +11,18 @@
  "hopkins": 0.641,
  "hopkins_nulo": 0.657,
  "p_hopkins": 0.811,
- "ninos_atencion": 158,
+ "ninos_atencion": 124,
+ "menores_6": 35,
+ "menores_6_atencion": {
+  "p_estimul": 39.2,
+  "p_acompan": 68.1,
+  "p_psicoter": 3.8,
+  "p_salud_mental": 0.0,
+  "p_taller": 6.8
+ },
  "vars_atencion": 10,
- "r_acompan_sin_soporte": -0.82,
- "r_tiempo_hogar_edad": 0.73,
+ "r_acompan_sin_soporte": -0.85,
+ "r_tiempo_hogar_edad": 0.63,
  "r_oms_cdc": {
   "imc": 0.99,
   "talla": 0.994
@@ -31,9 +39,9 @@
    "obesidad": 11.9
   }
  },
- "hopkins_atencion": 0.809,
- "hopkins_atencion_perm": 0.755,
- "hopkins_atencion_normal": 0.625,
- "p_hopkins_atencion_perm": 0.065,
+ "hopkins_atencion": 0.77,
+ "hopkins_atencion_perm": 0.716,
+ "hopkins_atencion_normal": 0.617,
+ "p_hopkins_atencion_perm": 0.095,
  "p_hopkins_atencion_normal": 0.005
 }

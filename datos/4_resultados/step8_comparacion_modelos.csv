@@ -1,6 +1,6 @@
 modelo|estructura real|estable|no trivial|útil
 Clasificación de la etiqueta de la ficha (avance)|sí (AUC 0,85; p = 0,01)|sí|no: imita una etiqueta manual con rezago|baja
 Clustering nutricional, z OMS (anexo)|no (Hopkins 0.64 = normal; BIC k = 1)|débil (ARI 0.70)|parcial (ARI 0.31 con cortes OMS)|baja
-Clustering de la atención (K-Means, Ward, Gower, LCA)|no frente a nula permutada (p = 0.09)|límite (ARI 0.75)|no: repite la situación legal (ARI 0.75)|baja
-Clustering de secuencias mes a mes|sí|sí|no: repite el estado predominante (ARI 0.99)|baja
-PCA de la atención (elegido)|sí: 2 componentes superan el análisis paralelo|sí (Tucker 0.86–0.93)|sí: combina 10 variables con pesos aprendidos|alta: índice de prioridad
+Clustering de la atención (LCA y K-Means, k = 2)|parcial: BIC elige 2 clases; K-Means no supera la nula permutada (p = 0.16)|no (ARI 0.70 < 0,75)|parcial: corta en dos la permanencia (ARI 0.56 con la situación legal)|baja
+Clustering de secuencias mes a mes|sí|sí|no: repite el estado predominante (ARI 0.98)|baja
+PCA de la atención (elegido)|sí: 2 componentes superan el análisis paralelo|sí (Tucker 0.88–0.93)|sí: combina 10 variables con pesos aprendidos|alta: índice de prioridad

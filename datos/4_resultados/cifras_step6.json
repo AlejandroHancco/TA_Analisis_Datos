@@ -1,35 +1,38 @@
 {
  "clustering_cumple_regla": 0,
- "ari_mas_estable": 0.746,
- "p_permutada_mas_estable": 0.09,
- "ari_con_legal": 0.753,
- "ari_sin_legal": 0.149,
+ "ari_mas_estable": 0.7,
+ "p_permutada_kmeans2": 0.164,
+ "algoritmo_mas_estable": "LCA k=2",
+ "rho_grupo_permanencia": 0.78,
+ "rho_grupo_intensidad": 0.19,
+ "ari_con_legal": 0.558,
+ "ari_sin_legal": 0.213,
  "lca_bic_k": 2,
- "ari_lca_kmeans": 0.346,
- "secuencias_ari_modal": 0.988,
- "secuencias_sin_cambio": 51,
+ "ari_lca_kmeans": 0.904,
+ "secuencias_ari_modal": 0.985,
+ "secuencias_sin_cambio": 47,
  "pca_componentes": 2,
- "pca_varianza": 40.9,
+ "pca_varianza": 44.3,
  "pca_varianza_por_comp": [
-  23.8,
-  17.1
+  25.5,
+  18.8
  ],
  "autovalores": [
-  2.39,
-  1.73,
-  1.22
+  2.57,
+  1.9,
+  1.19
  ],
  "paralelo_p95": [
-  1.55,
-  1.37,
-  1.26
+  1.63,
+  1.43,
+  1.31
  ],
  "tucker": [
-  0.93,
-  0.862
+  0.926,
+  0.881
  ],
  "tucker_p10": [
-  0.844,
-  0.714
+  0.827,
+  0.758
  ]
 }

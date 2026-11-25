@@ -15,8 +15,9 @@ VARS = ["tiempo_hogar", "legal_definitiva", "p_acompan", "p_psicoter", "p_taller
 PRIORIDAD = "Prioridad: larga permanencia, baja atención"
 
 
-def trayectoria(panel, edad_max=19):
-    """Resume la ficha (niño × mes) en una fila por niño con las 10 variables del PCA (misma regla que el Step 3)."""
+def trayectoria(panel, edad_min=6, edad_max=19):
+    """Resume la ficha (niño × mes) en una fila por niño con las 10 variables del PCA (misma regla que el Step 3).
+    Solo NNA de edad_min a edad_max años en su último registro (los servicios medidos aplican desde los 6 años)."""
     p = panel.sort_values(["id_nna", "periodo"]); g = p.groupby("id_nna")
     t = pd.DataFrame({
         "edad": g["edad"].last(),
@@ -29,7 +30,7 @@ def trayectoria(panel, edad_max=19):
         "discap_sev": g["severidad_discapacidad"].max(), "tiene_discapacidad": g["tiene_discapacidad"].max(),
         "anemia_alguna": g["anemia"].max()})
     t.loc[(t["tiene_discapacidad"] == 1) & t["discap_sev"].isna(), "discap_sev"] = 1
-    return t[t["edad"] <= edad_max].drop(columns="tiene_discapacidad").dropna(subset=VARS).reset_index()
+    return t[(t["edad"] >= edad_min) & (t["edad"] <= edad_max)].drop(columns="tiene_discapacidad").dropna(subset=VARS).reset_index()
 
 
 def cuadrante(permanencia, intensidad):

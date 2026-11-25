@@ -68,15 +68,20 @@ python run_all.py                 # ≈8 min; se detiene ante cualquier error o 
 
 ## Resultados principales
 
+- **Población del análisis principal: 124 NNA de 6 a 19 años.** Los servicios que registra la ficha (salud mental especializada, psicoterapia,
+  talleres) no aplican a los menores de 6, cuya atención es la estimulación temprana; con todas las edades, 8 bebés y niños pequeños
+  caían en la lista de prioridad. Los 35 menores de 6 se describen aparte.
 - **El clustering no descubre nada nuevo en estos datos.** Con la nutrición (z OMS) no hay grupos naturales (anexo). Con la atención,
-  ninguna combinación de K-Means, Ward, Gower, LCA o HDBSCAN cumple la regla de estabilidad y referencias nulas. La más estable repite la
-  situación legal (ARI 0,75), y el clustering de secuencias repite el estado predominante de cada niño (ARI 0,99).
-- **El PCA encuentra dos dimensiones reales y estables** (análisis paralelo de Horn; congruencia de Tucker 0,93 y 0,86), que explican el 40,9 %:
-  **permanencia** (situación definitiva, tiempo en el hogar, sin PTI) e **intensidad psicosocial** (salud mental, acompañamiento, talleres, discapacidad).
+  ninguna combinación de K-Means, Ward, Gower, LCA o HDBSCAN cumple la regla de estabilidad y referencias nulas. La mejor partición
+  (LCA y K-Means con 2 grupos) no es estable (ARI 0,70) y solo parte en dos la dimensión de permanencia; las secuencias mes a mes repiten
+  el estado predominante de cada niño (ARI 0,98).
+- **El PCA encuentra dos dimensiones reales y estables** (análisis paralelo de Horn; congruencia de Tucker 0,93 y 0,88), que explican el 44,3 %:
+  **permanencia** (situación definitiva, tiempo en el hogar, sin PTI) e **intensidad psicosocial** (salud mental, acompañamiento, talleres).
   Son independientes: **la atención psicosocial no aumenta con la permanencia**.
-- **Índice de prioridad:** 51 niños (32 %) tienen permanencia alta e intensidad baja. Llevan en promedio 8 años en el hogar, el 84 % pasó la mitad
-  de los meses o más sin soporte psicoemocional, el 63 % sin PTI y ninguno recibió salud mental especializada. 23 de ellos quedan en prioridad en al menos el 80 % de 300 remuestreos (`step9_lista_prioridad.csv`).
-- **La permanencia difiere entre UPE** (*p* < 0,001); la intensidad psicosocial no depende de la edad ni de la UPE, y es algo mayor en varones (*p* = 0,01).
+- **Índice de prioridad:** 33 NNA (27 %) tienen permanencia alta e intensidad baja. Llevan en promedio casi 10 años en el hogar, el 97 % pasó la
+  mitad de los meses o más sin soporte psicoemocional, el 58 % sin PTI y ninguno recibió salud mental especializada. La lista
+  (`step9_lista_prioridad.csv`) tiene tres niveles: 22 para revisar primero (estables en ≥ 80 % de 300 remuestreos), 11 para revisar y 5 para vigilar.
+- **La permanencia difiere entre UPE** (*p* < 0,001); la intensidad psicosocial no depende de la UPE y se relaciona solo débilmente con la edad y el sexo.
 - **Nutrición:** la población pesa más y mide menos de lo esperado (z de IMC +0,98; z de talla −0,94). El exceso de peso (≈ 40 %) es igual en todos los
   hogares, sexos, edades y perfiles de atención: es un problema **institucional**, no focalizado.
 - **Referencia de crecimiento:** las tablas del MINSA/INS usan el CDC 2000 para 5 a 19 años. Sus z correlacionan 0,99 con los de la OMS, así que los

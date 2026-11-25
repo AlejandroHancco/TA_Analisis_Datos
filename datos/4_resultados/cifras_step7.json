@@ -1,41 +1,42 @@
 {
  "varianza": [
-  23.8,
-  17.1
+  25.5,
+  18.8
  ],
  "cuadrantes": {
-  "Prioridad: larga permanencia, baja atenci\u00f3n": 51,
-  "Reciente, baja atenci\u00f3n": 48,
-  "Reciente, atenci\u00f3n activa": 39,
+  "Reciente, baja atenci\u00f3n": 42,
+  "Prioridad: larga permanencia, baja atenci\u00f3n": 33,
+  "Reciente, atenci\u00f3n activa": 29,
   "Larga permanencia, atenci\u00f3n activa": 20
  },
- "ninos_prioridad": 51,
- "prioridad_estables_80": 23,
- "estabilidad_mediana": 76.7,
+ "ninos_prioridad": 33,
+ "prioridad_estables_80": 22,
+ "vigilar": 5,
+ "estabilidad_mediana": 85.3,
  "cargas": {
   "Permanencia": {
-   "tiempo_hogar": 0.43,
-   "legal_definitiva": 0.48,
-   "p_acompan": -0.27,
-   "p_psicoter": -0.08,
-   "p_taller": -0.27,
-   "p_salud_mental": 0.24,
-   "p_pti_vencido": -0.36,
-   "p_pti_no_tiene": 0.42,
-   "discap_sev": 0.07,
-   "anemia_alguna": 0.25
+   "tiempo_hogar": 0.44,
+   "legal_definitiva": 0.46,
+   "p_acompan": -0.24,
+   "p_psicoter": -0.17,
+   "p_taller": -0.28,
+   "p_salud_mental": 0.18,
+   "p_pti_vencido": -0.38,
+   "p_pti_no_tiene": 0.43,
+   "discap_sev": 0.03,
+   "anemia_alguna": 0.26
   },
   "Intensidad psicosocial": {
-   "tiempo_hogar": -0.06,
-   "legal_definitiva": 0.09,
-   "p_acompan": 0.46,
-   "p_psicoter": 0.32,
-   "p_taller": 0.37,
-   "p_salud_mental": 0.53,
-   "p_pti_vencido": 0.02,
-   "p_pti_no_tiene": 0.01,
-   "discap_sev": 0.38,
-   "anemia_alguna": 0.32
+   "tiempo_hogar": -0.13,
+   "legal_definitiva": 0.12,
+   "p_acompan": 0.48,
+   "p_psicoter": 0.3,
+   "p_taller": 0.38,
+   "p_salud_mental": 0.51,
+   "p_pti_vencido": -0.05,
+   "p_pti_no_tiene": 0.15,
+   "discap_sev": 0.3,
+   "anemia_alguna": 0.36
   }
  }
 }
