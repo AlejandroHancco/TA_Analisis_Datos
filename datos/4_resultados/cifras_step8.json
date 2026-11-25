@@ -12,5 +12,9 @@
  "p_permanencia_upe": 0.0005,
  "p_intensidad_upe": 0.1045,
  "p_intensidad_edad": 0.0246,
- "p_intensidad_sexo": 0.0255
+ "p_intensidad_sexo": 0.0255,
+ "pi_ninos": 35,
+ "pi_pct_meses_cubiertos": 88.3,
+ "pi_sin_cobertura_actual": 5,
+ "pi_pct_cubierto_3_anios": 71.9
 }

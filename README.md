@@ -24,7 +24,7 @@ TA_Analisis_Datos/
 ├── run_all.py                 ejecuta todos los notebooks desde cero y verifica el resultado
 ├── src/oms.py                 puntajes z OMS (método LMS) de IMC y talla para la edad
 ├── src/cdc.py                 puntajes z CDC 2000 (referencia de las tablas MINSA/INS para 5–19 años), para sensibilidad
-├── src/atencion.py            recalcula el índice de prioridad con meses nuevos de ficha (Step 9)
+├── src/atencion.py            recalcula el índice de prioridad y la cobertura de la primera infancia con meses nuevos de ficha (Steps 8-9)
 ├── datos/
 │   ├── 0_crudos/              originales, solo lectura (hashes.json verifica que no cambien)
 │   │   └── referencias/       tablas LMS de la OMS (oms_lms/) y del CDC 2000 (cdc_lms/), curvas OMS y tablas MINSA/INS (CENAN)
@@ -52,7 +52,7 @@ TA_Analisis_Datos/
 | 8 | `Step6_Seleccion_de_Algoritmos` | 6 | Compara clustering (K-Means, Ward, Gower, LCA, HDBSCAN, secuencias) y **PCA** con reglas fijadas antes; elige el PCA |
 | 9 | `Step7_Mineria_de_Datos` | 7 | Ajusta el PCA, guarda el modelo, calcula puntajes, cuadrantes e índice de prioridad; robustez bootstrap |
 | 10 | `Step8_Interpretacion` | 8 | Interpreta los cuadrantes, su relación con edad, UPE, sexo y nutrición; **evaluación comparativa de los modelos**; iteraciones |
-| 11 | `Step9_Consolidacion` | 9 | Función reutilizable (`src/atencion.py`), lista de prioridad, hallazgos y acciones, conclusiones |
+| 11 | `Step9_Consolidacion` | 9 | Función reutilizable (`src/atencion.py`), lista de prioridad, lista de primera infancia, hallazgos y acciones, conclusiones |
 
 Cada notebook explica cada celda de código, interpreta sus resultados y verifica con `assert` las cifras que cita.
 
@@ -70,7 +70,7 @@ python run_all.py                 # ≈8 min; se detiene ante cualquier error o 
 
 - **Población del análisis principal: 124 NNA de 6 a 19 años.** Los servicios que registra la ficha (salud mental especializada, psicoterapia,
   talleres) no aplican a los menores de 6, cuya atención es la estimulación temprana; con todas las edades, 8 bebés y niños pequeños
-  caían en la lista de prioridad. Los 35 menores de 6 se describen aparte.
+  caían en la lista de prioridad. Los 35 menores de 6 se evalúan aparte con un indicador propio de su edad (ver abajo).
 - **El clustering no descubre nada nuevo en estos datos.** Con la nutrición (z OMS) no hay grupos naturales (anexo). Con la atención,
   ninguna combinación de K-Means, Ward, Gower, LCA o HDBSCAN cumple la regla de estabilidad y referencias nulas. La mejor partición
   (LCA y K-Means con 2 grupos) no es estable (ARI 0,70) y solo parte en dos la dimensión de permanencia; las secuencias mes a mes repiten
@@ -81,6 +81,10 @@ python run_all.py                 # ≈8 min; se detiene ante cualquier error o 
 - **Índice de prioridad:** 33 NNA (27 %) tienen permanencia alta e intensidad baja. Llevan en promedio casi 10 años en el hogar, el 97 % pasó la
   mitad de los meses o más sin soporte psicoemocional, el 58 % sin PTI y ninguno recibió salud mental especializada. La lista
   (`step9_lista_prioridad.csv`) tiene tres niveles: 22 para revisar primero (estables en ≥ 80 % de 300 remuestreos), 11 para revisar y 5 para vigilar.
+- **Primera infancia (35 menores de 6):** un mes está cubierto si el niño recibe estimulación temprana o está en educación inicial
+  (`cobertura_primera_infancia` en `src/atencion.py`). El 88,3 % de los meses está cubierto; los huecos se juntan en marzo, cuando el niño
+  deja la estimulación antes de entrar a inicial. **5 niños de 2 a 4 años llevan desde marzo de 2026 sin ninguno de los dos servicios**
+  (`step9_lista_primera_infancia.csv`).
 - **La permanencia difiere entre UPE** (*p* < 0,001); la intensidad psicosocial no depende de la UPE y se relaciona solo débilmente con la edad y el sexo.
 - **Nutrición:** la población pesa más y mide menos de lo esperado (z de IMC +0,98; z de talla −0,94). El exceso de peso (≈ 40 %) es igual en todos los
   hogares, sexos, edades y perfiles de atención: es un problema **institucional**, no focalizado.
@@ -92,7 +96,7 @@ python run_all.py                 # ≈8 min; se detiene ante cualquier error o 
 
 En `entregables/`:
 - `Informe_Final_TA_E10.docx`: informe por pasos KDD, con figuras, tablas, referencias y anexos.
-- `Presentacion_Final_TA_E10.pptx`: 17 láminas con notas para el expositor.
+- `Presentacion_Final_TA_E10.pptx`: 18 láminas con notas para el expositor.
 - `FichaTecnica_E10_final.xlsx` y `Gantt_E10_final.xlsx`: ficha técnica y diagrama de Gantt finales.
 
 Los nombres de los integrantes aparecen como `[Nombre]` junto a cada código: hay que completarlos antes de entregar.
