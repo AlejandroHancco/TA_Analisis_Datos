@@ -23,10 +23,11 @@ TA_Analisis_Datos/
 ├── requirements.txt           versiones de las librerías
 ├── run_all.py                 ejecuta todos los notebooks desde cero y verifica el resultado
 ├── src/oms.py                 puntajes z OMS (método LMS) de IMC y talla para la edad
+├── src/cdc.py                 puntajes z CDC 2000 (referencia de las tablas MINSA/INS para 5–19 años), para sensibilidad
 ├── src/atencion.py            recalcula el índice de prioridad con meses nuevos de ficha (Step 9)
 ├── datos/
 │   ├── 0_crudos/              originales, solo lectura (hashes.json verifica que no cambien)
-│   │   └── referencias/oms_lms/   tablas LMS oficiales de la OMS (who.int): 0–5 años (2006) y 5–19 años (2007)
+│   │   └── referencias/       tablas LMS de la OMS (oms_lms/) y del CDC 2000 (cdc_lms/), curvas OMS y tablas MINSA/INS (CENAN)
 │   ├── 1_consolidados/        Step2a: Bloque 2 consolidado desde los 6 Excel mensuales
 │   ├── 2_limpios/             Step3: ficha limpia, Bloque 2 limpio, mediciones, evaluaciones, trayectoria de atención por niño
 │   ├── 3_transformados/       Step4: variables de atención por niño, mediciones con z y estado nutricional por niño
@@ -78,6 +79,8 @@ python run_all.py                 # ≈8 min; se detiene ante cualquier error o 
 - **La permanencia difiere entre UPE** (*p* < 0,001); la intensidad psicosocial no depende de la edad ni de la UPE, y es algo mayor en varones (*p* = 0,01).
 - **Nutrición:** la población pesa más y mide menos de lo esperado (z de IMC +0,98; z de talla −0,94). El exceso de peso (≈ 40 %) es igual en todos los
   hogares, sexos, edades y perfiles de atención: es un problema **institucional**, no focalizado.
+- **Referencia de crecimiento:** las tablas del MINSA/INS usan el CDC 2000 para 5 a 19 años. Sus z correlacionan 0,99 con los de la OMS, así que los
+  análisis no cambian; solo cambian los porcentajes de 5 a 19 años (talla baja 17,4 % con OMS y 26,7 % con CDC; exceso 43,7 % y 36,0 %).
 - **Auditoría:** la ficha y la clasificación OMS concuerdan en el 68,8 % de las evaluaciones, y la institución usa cortes más laxos que la OMS.
 
 ## Entregables
@@ -115,6 +118,7 @@ Las citas aparecen en los notebooks como (Autor, año). Los PDF se guardan en `f
 - Lorenzo-Seva, U., & ten Berge, J. M. F. (2006). Tucker's congruence coefficient as a meaningful index of factor similarity. *Methodology, 2*(2), 57–64.
 - Hopkins, B., & Skellam, J. G. (1954). A new method for determining the type of distribution of plant individuals. *Annals of Botany, 18*(2), 213–227.
 - Rousseeuw, P. J. (1987). Silhouettes: A graphical aid to the interpretation and validation of cluster analysis. *Journal of Computational and Applied Mathematics, 20*, 53–65.
+- Kuczmarski, R. J., Ogden, C. L., Guo, S. S., et al. (2002). 2000 CDC growth charts for the United States: Methods and development. *Vital and Health Statistics, Series 11*, 246, 1–190.
 - Kaufman, L., & Rousseeuw, P. J. (1990). *Finding groups in data: An introduction to cluster analysis*. Wiley.
 - Hennig, C. (2007). Cluster-wise assessment of cluster stability. *Computational Statistics & Data Analysis, 52*(1), 258–271.
 - Gower, J. C. (1971). A general coefficient of similarity and some of its properties. *Biometrics, 27*(4), 857–871.

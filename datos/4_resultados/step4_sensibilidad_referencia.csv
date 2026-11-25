@@ -1,0 +1,5 @@
+columna anotada|criterio|n|Spearman OMS|Spearman CDC|kappa OMS|kappa CDC|anotados|marca OMS|marca CDC
+T/E_INS|talla baja|310|0.699|0.698|0.512|0.373|24|54|83
+T/E_OMS|talla baja|311|0.825|0.822|0.668|0.651|74|54|83
+IMC_INS|exceso de peso|311|0.824|0.822|0.38|0.474|48|136|112
+IMC_OMS|exceso de peso|311|0.846|0.841|0.508|0.503|67|136|112

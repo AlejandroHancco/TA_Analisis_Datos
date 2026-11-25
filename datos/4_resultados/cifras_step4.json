@@ -15,6 +15,22 @@
  "vars_atencion": 10,
  "r_acompan_sin_soporte": -0.82,
  "r_tiempo_hogar_edad": 0.73,
+ "r_oms_cdc": {
+  "imc": 0.99,
+  "talla": 0.994
+ },
+ "prev_5a19": {
+  "OMS 2007": {
+   "talla baja": 17.4,
+   "exceso de peso": 43.7,
+   "obesidad": 12.2
+  },
+  "CDC 2000 (MINSA/INS)": {
+   "talla baja": 26.7,
+   "exceso de peso": 36.0,
+   "obesidad": 11.9
+  }
+ },
  "hopkins_atencion": 0.809,
  "hopkins_atencion_perm": 0.755,
  "hopkins_atencion_normal": 0.625,
