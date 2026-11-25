@@ -31,7 +31,8 @@ TA_Analisis_Datos/
 │   ├── 3_transformados/       Step4: variables de atención por niño, mediciones con z y estado nutricional por niño
 │   └── 4_resultados/          Step5, Step6 y anexo: auditoría, comparación de métodos, mapa e índice de prioridad, cifras_*.json
 ├── notebooks/                 un notebook por paso KDD (ver orden)
-└── figuras/                   prefijo = paso que la genera
+├── figuras/                   prefijo = paso que la genera
+└── fuentes/                   PDF de las referencias (ver fuentes/README.md)
 ```
 
 ## Notebooks y orden de ejecución
@@ -79,6 +80,38 @@ python run_all.py                 # ≈5 min; se detiene ante cualquier error o 
 - **Step 7 – Minería:** recalcular el índice con los meses nuevos de ficha y medir cuánto se mueve cada niño en el mapa.
 - **Step 8 – Interpretación:** validar los nombres de las dimensiones y la lista de prioridad con el equipo del Puericultorio; revisar la diferencia entre UPE.
 - **Step 9 – Consolidación:** informe final, ficha técnica y Gantt finales.
+
+## Referencias
+
+Las citas aparecen en los notebooks como (Autor, año). Los PDF se guardan en `fuentes/`, con el nombre indicado en `fuentes/README.md`.
+
+**Proceso KDD**
+- Fayyad, U., Piatetsky-Shapiro, G., & Smyth, P. (1996). From data mining to knowledge discovery in databases. *AI Magazine, 17*(3), 37–54.
+
+**Referencias de crecimiento y estado nutricional**
+- WHO Multicentre Growth Reference Study Group. (2006). WHO Child Growth Standards based on length/height, weight and age. *Acta Paediatrica, 95*(S450), 76–85.
+- de Onis, M., Onyango, A. W., Borghi, E., Siyam, A., Nishida, C., & Siekmann, J. (2007). Development of a WHO growth reference for school-aged children and adolescents. *Bulletin of the World Health Organization, 85*(9), 660–667.
+- Cole, T. J., & Green, P. J. (1992). Smoothing reference centile curves: The LMS method and penalized likelihood. *Statistics in Medicine, 11*(10), 1305–1319.
+- Santra, A., Rai, S., Misra, P., Yadav, K., Goswami, K., & Kaur, G. (2023). Comparison of different anthropometric indicators for assessment of nutritional status among adolescent girls in an urban resettlement colony in New Delhi: A cross-sectional study. *Cureus, 15*(4), e37242. https://doi.org/10.7759/cureus.37242
+- Barouaca, H., Ben Loubir, D., El Bouhali, B., Tachfouti, N., & El Midaoui, A. (2021). The role of body mass index-for-age in the assessment of acute malnutrition and obesity in Moroccan hospitalized children. *Journal of Applied Pharmaceutical Science, 11*(7), 98–104. https://doi.org/10.7324/JAPS.2021.110710
+- Orden, A. B., & Apezteguía, M. C. (2014). Weight and height centiles of Argentinian children and adolescents: A comparison with WHO and national growth references. *Annals of Human Biology*. https://doi.org/10.3109/03014460.2014.970576
+- Johnson, D. E., & Gunnar, M. R. (2011). Growth failure in institutionalized children. *Monographs of the Society for Research in Child Development, 76*(4), 92–126.
+
+**Niños en acogimiento residencial**
+- Delfabbro, P. H., Barber, J. G., & Cooper, L. (2002). Children entering out-of-home care in South Australia: Baseline analyses for a 3-year longitudinal study. *Children and Youth Services Review, 24*(12), 917–932.
+- Hagaman, J. L., Trout, A. L., Chmelka, M. B., Thompson, R. W., & Reid, R. (2010). Risk profiles of children entering residential care: A cluster analysis. *Journal of Child and Family Studies, 19*, 525–535. https://doi.org/10.1007/s10826-009-9325-3
+- Raitasalo, K., Kosonen, J., Plaami, E., & Kuusisto, K. (2026). A typology of teen-aged children in out-of-home care: A register-based cohort study. *Nordic Social Work Research*. https://doi.org/10.1080/2156857X.2026.2730122
+
+**Métodos**
+- Horn, J. L. (1965). A rationale and test for the number of factors in factor analysis. *Psychometrika, 30*(2), 179–185.
+- Lorenzo-Seva, U., & ten Berge, J. M. F. (2006). Tucker's congruence coefficient as a meaningful index of factor similarity. *Methodology, 2*(2), 57–64.
+- Hopkins, B., & Skellam, J. G. (1954). A new method for determining the type of distribution of plant individuals. *Annals of Botany, 18*(2), 213–227.
+- Rousseeuw, P. J. (1987). Silhouettes: A graphical aid to the interpretation and validation of cluster analysis. *Journal of Computational and Applied Mathematics, 20*, 53–65.
+- Kaufman, L., & Rousseeuw, P. J. (1990). *Finding groups in data: An introduction to cluster analysis*. Wiley.
+- Hennig, C. (2007). Cluster-wise assessment of cluster stability. *Computational Statistics & Data Analysis, 52*(1), 258–271.
+- Gower, J. C. (1971). A general coefficient of similarity and some of its properties. *Biometrics, 27*(4), 857–871.
+- Campello, R. J. G. B., Moulavi, D., & Sander, J. (2013). Density-based clustering based on hierarchical density estimates. En *Advances in Knowledge Discovery and Data Mining (PAKDD 2013)* (pp. 160–172). Springer.
+- Abbott, A., & Tsay, A. (2000). Sequence analysis and optimal matching methods in sociology. *Sociological Methods & Research, 29*(1), 3–33.
 
 ## Declaración de uso de IA generativa
 
